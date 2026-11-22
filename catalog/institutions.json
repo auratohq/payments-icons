@@ -1,0 +1,246 @@
+[
+  {
+    "id": "ins_bis",
+    "name": "Bank for International Settlements",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 1718,
+    "sha256": "eff1696d70e587e4280e485a5cd33472bb19b7b4c8692248a98326177395c69a",
+    "upstreamPath": "48/institutions/ins_bis.png.webp",
+    "aliases": [
+      "BIS"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/bis.png"
+  },
+  {
+    "id": "ins_cembra_money_bank",
+    "name": "Cembra Money Bank",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 2742,
+    "sha256": "227a0cd3a11aba05c220627399fac874ac9ef50d0c62e1f87490f4c8a0e7a8c1",
+    "upstreamPath": "48/institutions/ins_cembra_money_bank.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/cembra-money-bank.png"
+  },
+  {
+    "id": "ins_comeos",
+    "name": "Comeos",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 1236,
+    "sha256": "521fd87ce41bbfa1a249dfcfc50fb93523139879bf1047015b95491f308fb215",
+    "upstreamPath": "48/institutions/ins_comeos.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/comeos.png"
+  },
+  {
+    "id": "ins_cscca_ht",
+    "name": "Cour Supérieure des Comptes et du Contentieux Administratif",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 3511,
+    "sha256": "aa90149899900f98e99394dddfaff4d854f4cc33cfd3ef7938a3b08d5c12a6d9",
+    "upstreamPath": "48/institutions/ins_cscca_ht.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/cscca-haiti.png"
+  },
+  {
+    "id": "ins_exchangerate_api",
+    "name": "ExchangeRate-API",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 1984,
+    "sha256": "85ca09696fd059b2929345c01a09cc17789bff4a3c97f9f9d5d5eda21240f16f",
+    "upstreamPath": "48/institutions/ins_exchangerate_api.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/exchangerate-api.png"
+  },
+  {
+    "id": "ins_guam_waterworks_authority",
+    "name": "Guam Waterworks Authority",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 1058,
+    "sha256": "2a1087c75d7bb566049fe3ce11a87de1d107fd9010c3724cff22d1db55cc8f31",
+    "upstreamPath": "48/institutions/ins_guam_waterworks_authority.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": "https://guamwaterworks.org/wp-content/uploads/2013/11/gwa-logo1.png"
+    },
+    "path": "institutions/guam-waterworks-authority.png"
+  },
+  {
+    "id": "ins_imf",
+    "name": "International Monetary Fund",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 4348,
+    "sha256": "5bb710d55980658c0e5dda4af3df0a1bf74dbe26cdb2a7b6466a856b5b0ac73f",
+    "upstreamPath": "48/institutions/ins_imf.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/international-monetary-fund.png"
+  },
+  {
+    "id": "ins_japan_credit_association",
+    "name": "Japan Credit Association",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 2634,
+    "sha256": "00492a81182fe7a1fd26aad20a3b9da4b5f8b9ab1ededc819f8e95362ed50927",
+    "upstreamPath": "48/institutions/ins_japan_credit_association.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/japan-credit-association.png"
+  },
+  {
+    "id": "ins_japanese_bankers_association",
+    "name": "Japanese Bankers Association",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 2505,
+    "sha256": "ca8d834a4c1348a2fdba11b5d9fc784f54f4a716b2f398d17edbf451b2531817",
+    "upstreamPath": "48/institutions/ins_japanese_bankers_association.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/japanese-bankers-association.png"
+  },
+  {
+    "id": "ins_myanmar_digital_newspaper",
+    "name": "Myanmar Digital Newspaper",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 1766,
+    "sha256": "d92d48173e6b5141032f7464dac7456731c369d85218c9d5b1909e12bed9aa5c",
+    "upstreamPath": "48/institutions/ins_myanmar_digital_newspaper.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/myanmar-digital-newspaper.png"
+  },
+  {
+    "id": "ins_pwc",
+    "name": "PricewaterhouseCoopers",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 1604,
+    "sha256": "c4640bb28aff9116adb5ae37b488f324966f20b3892d1b6ac56fcabead755920",
+    "upstreamPath": "48/institutions/ins_pwc.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/pwc.png"
+  },
+  {
+    "id": "ins_sas",
+    "name": "Scandinavian Airlines",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 1843,
+    "sha256": "2ccbcffbee088437696d8a1402766951b47f3976c7ea76dcca6c2a0c90dcd2f0",
+    "upstreamPath": "48/institutions/ins_sas.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/sas.png"
+  },
+  {
+    "id": "ins_stats_new_zealand",
+    "name": "Stats NZ",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 2177,
+    "sha256": "847932c75fa45182d0f5edf7e05aa1f6c9fc9b8cff58d5babe9f143dfc96caf5",
+    "upstreamPath": "48/institutions/ins_stats_new_zealand.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/stats-nz.png"
+  },
+  {
+    "id": "ins_uk_finance",
+    "name": "UK Finance",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 1551,
+    "sha256": "22a9fa48c2c4fd13fb0ca91fff3d9cb5303033e30ab8f11869b5d5f7d9e88162",
+    "upstreamPath": "48/institutions/ins_uk_finance.png.webp",
+    "aliases": [
+      "UK Finance Limited"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/uk-finance.png"
+  },
+  {
+    "id": "ins_world_bank",
+    "name": "World Bank",
+    "category": "institutions",
+    "width": 48,
+    "height": 48,
+    "bytes": 3988,
+    "sha256": "7919a5716e4878653371c7b8ff7c7dfe4a1c03e7c7a3574d211936f531d49878",
+    "upstreamPath": "48/institutions/ins_world_bank.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "institutions/world-bank.png"
+  }
+]

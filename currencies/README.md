@@ -1,6 +1,6 @@
 # Currencies payment icons and assets
 
-153 descriptive PNG files from the [Aurato Global Payment Icon Pack](../README.md).
+154 descriptive PNG files from the [Aurato Global Payment Icon Pack](../README.md).
 
 | Name | Aliases | PNG |
 | --- | --- | --- |
@@ -26,6 +26,7 @@
 | Botswana pula | 072, Botswana pula, BWP, P | [bwp.png](bwp.png) |
 | Brazilian real | 986, Brazilian real, Brazilian real currency, BRL, R$ | [brl.png](brl.png) |
 | Brunei dollar | BND, 096, Brunei dollar | [bnd.png](bnd.png) |
+| Bulgarian lev | BGN, Bulgarian lev | [bgn.png](bgn.png) |
 | Burundian franc | BIF, 108, Burundian franc, Burundi Franc | [bif.png](bif.png) |
 | Cambodian riel | KHR, 116, Cambodian riel, Riel | [khr.png](khr.png) |
 | Canadian dollar | 124, CA$, CAD, Canadian dollar, Canadian dollar currency | [cad.png](cad.png) |

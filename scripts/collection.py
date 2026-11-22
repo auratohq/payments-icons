@@ -21,12 +21,12 @@ import unicodedata
 from urllib.request import Request, urlopen
 from urllib.parse import unquote, urlsplit
 
-from PIL import Image, ImageChops
+from PIL import Image, ImageChops, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = os.environ.get('AURATO_ASSET_BASE_URL', '').rstrip('/')
 PUBLIC_OBJECT_MARKER = '/storage/v1/object/public/'
-NAMES = {'banks': 'Banks', 'cards': 'Cards', 'currencies': 'Currencies', 'markets': 'Markets',
+NAMES = {'banks': 'Banks', 'cards': 'Cards', 'currencies': 'Currencies', 'institutions': 'Institutions', 'markets': 'Markets',
          'operators': 'Operators', 'payment-methods': 'Payment methods', 'psps': 'PSPs',
          'regulators': 'Regulators', 'schemes': 'Schemes', 'systems': 'Systems'}
 
@@ -41,7 +41,7 @@ def check_entry(item):
         raise ValueError(f'Unsafe asset path: {path}')
     if path != '/'.join(parts) or not item.get('id') or not item.get('name'):
         raise ValueError(f'Invalid identity: {path}')
-    expected = (406, 256) if category == 'cards' else (256, 256)
+    expected = (48, 30) if category == 'cards' else (48, 48)
     if (item['width'], item['height']) != expected:
         raise ValueError(f'Unexpected dimensions in metadata: {path}')
     if not isinstance(item['bytes'], int) or not 0 < item['bytes'] <= 5_000_000:
@@ -52,8 +52,9 @@ def check_entry(item):
         raise ValueError(f'Missing provenance: {path}')
     upstream = item.get('upstreamPath')
     upstream_parts = PurePosixPath(upstream).parts if isinstance(upstream, str) else ()
-    if (len(upstream_parts) != 2 or upstream_parts[0] != category or
-            not re.fullmatch(r'[a-zA-Z0-9_-]+\.png', upstream_parts[1]) or
+    if (len(upstream_parts) < 3 or upstream_parts[:2] != ('48', category) or
+            any(not re.fullmatch(r'[a-zA-Z0-9_-][a-zA-Z0-9_.-]*', part) for part in upstream_parts[2:]) or
+            not upstream_parts[-1].endswith('.webp') or
             upstream != '/'.join(upstream_parts)):
         raise ValueError(f'Unsafe upstream asset path: {upstream}')
     aliases = item.get('aliases', [])
@@ -117,14 +118,51 @@ def check_bytes(data, item):
 @lru_cache(maxsize=1)
 def silhouette_masks():
     inside, outside = bytearray(), bytearray()
-    for y in range(256):
-        for x in range(256):
-            dx = max(43 - (x + 0.5), (x + 0.5) - 213, 0)
-            dy = max(43 - (y + 0.5), (y + 0.5) - 213, 0)
+    radius = 43 * 48 / 256
+    for y in range(48):
+        for x in range(48):
+            dx = max(radius - (x + 0.5), (x + 0.5) - (48-radius), 0)
+            dy = max(radius - (y + 0.5), (y + 0.5) - (48-radius), 0)
             distance = (dx*dx + dy*dy) ** 0.5
-            inside.append(255 if distance < 40 else 0)
-            outside.append(255 if distance > 46 else 0)
-    return Image.frombytes('L', (256, 256), bytes(inside)), Image.frombytes('L', (256, 256), bytes(outside))
+            inside.append(255 if distance < radius-1.5 else 0)
+            outside.append(255 if distance > radius+1.5 else 0)
+    return Image.frombytes('L', (48, 48), bytes(inside)), Image.frombytes('L', (48, 48), bytes(outside))
+
+
+def png_from_mini(data, category):
+    """Decode the 48-pixel WebP source; fit padded cards without stretching."""
+    with Image.open(BytesIO(data)) as original:
+        if original.format != 'WEBP':
+            raise ValueError('Expected a WebP from the 48-pixel source snapshot')
+        image = original.convert('RGBA')
+    if category == 'cards':
+        if image.width != 48 or not 0 < image.height <= 256:
+            raise ValueError(f'Unexpected card mini dimensions: {image.size}')
+        if image.size != (48, 30):
+            bounds = image.getchannel('A').getbbox()
+            if not bounds:
+                raise ValueError('Empty card mini')
+            art = ImageOps.contain(image.crop(bounds), (48, 30), Image.Resampling.LANCZOS)
+            image = Image.new('RGBA', (48, 30))
+            image.paste(art, ((48-art.width)//2, (30-art.height)//2))
+    elif image.size != (48, 48):
+        raise ValueError(f'Unexpected icon mini dimensions: {image.size}')
+    elif all(image.getchannel('A').getpixel(point) == 255
+             for point in ((0, 0), (47, 0), (0, 47), (47, 47))):
+        # A few square sources need the same baked-in rounded frame as the pack.
+        radius = 43 * 48 / 256
+        samples = bytearray()
+        for y in range(48*4):
+            for x in range(48*4):
+                dx = max(radius-(x+.5)/4, (x+.5)/4-(48-radius), 0)
+                dy = max(radius-(y+.5)/4, (y+.5)/4-(48-radius), 0)
+                samples.append(255 if dx*dx+dy*dy <= radius*radius else 0)
+        mask = Image.frombytes('L', (48*4, 48*4), bytes(samples))
+        mask = mask.resize((48, 48), Image.Resampling.LANCZOS)
+        image.putalpha(ImageChops.multiply(image.getchannel('A'), mask))
+    stream = BytesIO()
+    image.save(stream, format='PNG', optimize=True)
+    return stream.getvalue()
 
 
 def check_image(data, item):
@@ -141,7 +179,8 @@ def check_image(data, item):
     if any(alpha.getpixel(p) != 0 for p in ((0, 0), (width-1, 0), (0, height-1), (width-1, height-1))):
         raise ValueError(f'Corners must be transparent: {item["path"]}')
     # Check the rounded-square silhouette independent of a CSS border-radius.
-    # A 3-pixel tolerance excludes the anti-aliased edge, not the interior.
+    # Downsampling can leave tiny alpha deviations; keep tolerance at the edge.
+    alpha = alpha.point(lambda value: 0 if value <= 5 else 255 if value >= 250 else value)
     inside, outside = silhouette_masks()
     if ImageChops.multiply(ImageChops.invert(alpha), inside).getbbox():
         raise ValueError(f'Transparent rounded-square interior: {item["path"]}')
@@ -182,7 +221,7 @@ def download(entries, workers):
                     suffix = '' if attempt == 0 else '?v=' + first['sha256']
                     request = Request(f'{SOURCE}/{first["upstreamPath"]}{suffix}', headers={'User-Agent': 'Aurato-Payment-Icons/1.0'})
                     with urlopen(request, timeout=30) as response:
-                        data = response.read(5_000_001)
+                        data = png_from_mini(response.read(5_000_001), first['category'])
                     check_bytes(data, first)
                     cached.write_bytes(data)
                     break
@@ -248,7 +287,7 @@ def private_asset_path(url):
         return None
     _, upstream_path = object_path.split('/', 1)
     parts = PurePosixPath(upstream_path).parts
-    if len(parts) != 2 or upstream_path != '/'.join(parts):
+    if len(parts) < 2 or any(part in ('.', '..') for part in parts) or upstream_path != '/'.join(parts):
         return None
     return upstream_path
 
@@ -391,9 +430,13 @@ def import_snapshot(path):
     if not isinstance(rows, list) or not rows:
         raise ValueError('Expected a nonempty JSON array from scripts/export.sql')
     _, old_entries = load_catalog()
-    entries = []
-    for row in rows:
-        item = {k: row[k] for k in ('id', 'name', 'category', 'width', 'height', 'bytes', 'sha256')}
+    if not SOURCE:
+        raise ValueError('Set AURATO_ASSET_BASE_URL to the private entity-minis base URL before import')
+
+    def prepare(row):
+        item = {k: row[k] for k in ('id', 'name', 'category')}
+        item.update(width=48, height=30 if row['category'] == 'cards' else 48,
+                    bytes=1, sha256='0'*64, path=f"{row['category']}/snapshot.png")
         item['upstreamPath'] = row['upstream_path']
         item['seoSlug'] = row.get('seo_slug')
         item['aliases'] = clean_aliases(row.get('aliases'))
@@ -401,7 +444,22 @@ def import_snapshot(path):
         if item['source']['url'] and item['source']['url'].startswith('/'):
             item['source']['reference'] = item['source']['url']
             item['source']['url'] = None
-        entries.append(item)
+        check_entry(item)
+        request = Request(f'{SOURCE}/{item["upstreamPath"]}', headers={'User-Agent': 'Aurato-Payment-Icons/1.0'})
+        with urlopen(request, timeout=30) as response:
+            raw = response.read(5_000_001)
+        if (len(raw) != row['source_bytes'] or
+                hashlib.md5(raw).hexdigest() != row['source_etag'].strip('"')):
+            raise ValueError(f'Source changed since approved export: {item["id"]}')
+        data = png_from_mini(raw, item['category'])
+        item.update(bytes=len(data), sha256=hashlib.sha256(data).hexdigest())
+        cache = ROOT / '.cache' / 'sha256'
+        cache.mkdir(parents=True, exist_ok=True)
+        (cache / (item['sha256'] + '.png')).write_bytes(data)
+        return item
+
+    with ThreadPoolExecutor(max_workers=16) as executor:
+        entries = list(executor.map(prepare, rows))
     present = {item['category'] for item in entries}
     missing = set(NAMES) - present
     if missing:

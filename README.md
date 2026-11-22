@@ -6,7 +6,7 @@
 
 **The world of payments - one icon pack.**
 
-A versioned collection of **8,089 payment-related PNG assets** maintained by **[Aurato](https://aurato.io): 2,073 icons** and **6,016 card images**, across **10 categories**.   
+A versioned collection of **8,698 payment-related PNG assets** maintained by **[Aurato](https://aurato.io): 3,068 icons** and **5,630 card images**, across **11 categories**.   
 Find cards, methods, wallets, markets, payment service providers (PSPs), currencies, banks, regulators, operators, schemes, and systems.
 
 [Download ZIP](https://github.com/auratohq/payment-icons/archive/refs/heads/main.zip) · [Contribute](CONTRIBUTING.md) · [Copyright](RIGHTS.md)
@@ -15,8 +15,8 @@ Find cards, methods, wallets, markets, payment service providers (PSPs), currenc
 ## What's included
 
 - Actual PNG files checked into Git with lowercase, human-readable filenames.
-- Consistent **256 × 256** icons: opaque rounded-square base (**43 px corner radius**), transparent outside corners. The shape is in the image itself - no CSS clipping is needed.
-- **406 × 256** cards, preserving card proportions.
+- Consistent **48 × 48** icons: opaque rounded-square base (**8 px corner radius**), transparent outside corners. The shape is in the image itself - no CSS clipping is needed.
+- **48 × 30** cards, preserving card proportions.
 - Searchable gallery with filters, light/dark/transparency previews, and individual downloads.
 - Machine-readable names, aliases, internal record IDs, repository paths, upstream paths, dimensions, byte sizes, SHA-256 hashes and recorded provenance.
 - Reproducible downloads and validation against the approved source snapshot.
@@ -42,16 +42,17 @@ All asset folders are directly at the repository root.
 
 | Folder | Assets |
 | --- | ---: |
-| [cards](cards/) | 6,016 |
-| [payment-methods](payment-methods/) | 1,006 |
-| [banks](banks/) | 136 |
-| [currencies](currencies/) | 153 |
+| [cards](cards/) | 5,630 |
+| [payment-methods](payment-methods/) | 981 |
+| [banks](banks/) | 183 |
+| [currencies](currencies/) | 154 |
+| [institutions](institutions/) | 15 |
 | [markets](markets/) | 250 |
-| [operators](operators/) | 88 |
-| [psps](psps/) | 75 |
-| [regulators](regulators/) | 255 |
-| [schemes](schemes/) | 91 |
-| [systems](systems/) | 19 |
+| [operators](operators/) | 209 |
+| [psps](psps/) | 87 |
+| [regulators](regulators/) | 261 |
+| [schemes](schemes/) | 477 |
+| [systems](systems/) | 451 |
 
 ## Usage
 

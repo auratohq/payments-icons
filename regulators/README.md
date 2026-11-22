@@ -1,10 +1,11 @@
 # Regulators payment icons and assets
 
-255 descriptive PNG files from the [Aurato Global Payment Icon Pack](../README.md).
+261 descriptive PNG files from the [Aurato Global Payment Icon Pack](../README.md).
 
 | Name | Aliases | PNG |
 | --- | --- | --- |
 | Andorran Financial Authority | Andorran Financial Authority, AFA, AD | [andorran-financial-authority.png](andorran-financial-authority.png) |
+| Aruba Fair Trade Authority | — | [aruba-fair-trade-authority.png](aruba-fair-trade-authority.png) |
 | Australian Prudential Regulation Authority | Australian Prudential Regulation Authority, APRA, AU, CC, CX, NF | [australian-prudential-regulation-authority.png](australian-prudential-regulation-authority.png) |
 | Austrian Financial Market Authority | FMA, AT, Austrian Financial Market Authority, AFMA | [austrian-financial-market-authority.png](austrian-financial-market-authority.png) |
 | Autoridad de Supervisión del Sistema Financiero | Autoridad de Supervisión del Sistema Financiero, ASFI, ASSF, BO | [autoridad-de-supervision-del-sistema-financiero.png](autoridad-de-supervision-del-sistema-financiero.png) |
@@ -64,7 +65,6 @@
 | Banking Regulation and Supervision Agency | Banking Regulation and Supervision Agency, BRSA, TR | [banking-regulation-and-supervision-agency.png](banking-regulation-and-supervision-agency.png) |
 | Banky Foiben'i Madagasikara | Banky Foiben'i Madagasikara, BFM, MG | [banky-foiben-i-madagasikara.png](banky-foiben-i-madagasikara.png) |
 | Bermuda Monetary Authority | Bermuda Monetary Authority, BMA, BM | [bermuda-monetary-authority.png](bermuda-monetary-authority.png) |
-| Board of Governors of the Federal Reserve System | US, FRB, PR, BGFRS, The Fed, GU, Board of Governors of the Federal Reserve System, MP, Federal Reserve Board, VI, AS | [federal-reserve-board.png](federal-reserve-board.png) |
 | Brunei Darussalam Central Bank | Brunei Darussalam Central Bank, BDCB, BN | [brunei-darussalam-central-bank.png](brunei-darussalam-central-bank.png) |
 | Bulgarian National Bank | Bulgarian National Bank, BNB, BG | [bulgarian-national-bank.png](bulgarian-national-bank.png) |
 | Cayman Islands Monetary Authority | Cayman Islands Monetary Authority, CIMA, KY | [cayman-islands-monetary-authority.png](cayman-islands-monetary-authority.png) |
@@ -162,10 +162,12 @@
 | Falkland Islands Financial Services Regulation | FK, FSR, FIFSR, Falkland Islands Financial Services Regulation | [falkland-islands-financial-services-regulation.png](falkland-islands-financial-services-regulation.png) |
 | Federal Deposit Insurance Corporation | Federal Deposit Insurance Corporation, FDIC, AS, GU, MP, PR, US, VI | [federal-deposit-insurance-corporation.png](federal-deposit-insurance-corporation.png) |
 | Federal Financial Supervisory Authority | Federal Financial Supervisory Authority, FFSA, DE, BaFin | [federal-financial-supervisory-authority.png](federal-financial-supervisory-authority.png) |
+| Federal Reserve Board of Governors | US, FRB, PR, BGFRS, The Fed, GU, Board of Governors of the Federal Reserve System, MP, Federal Reserve Board, VI, AS | [federal-reserve-board.png](federal-reserve-board.png) |
 | Federated States of Micronesia Banking Board | Federated States of Micronesia Banking Board, FSMBB, FM | [federated-states-of-micronesia-banking-board.png](federated-states-of-micronesia-banking-board.png) |
 | Financial Market Authority | Financial Market Authority, FMA, LI | [financial-market-authority.png](financial-market-authority.png) |
 | Financial Market Commission of Chile | Financial Market Commission of Chile, CMF, CL | [financial-market-commission-of-chile.png](financial-market-commission-of-chile.png) |
 | Financial Services Agency | Financial Services Agency, FSA, JP | [financial-services-agency.png](financial-services-agency.png) |
+| Financial Services Authority of Saint Vincent and the Grenadines | — | [financial-services-authority-saint-vincent-and-the-grenadines.png](financial-services-authority-saint-vincent-and-the-grenadines.png) |
 | Financial Services Commission | Financial Services Commission, FSC, AI | [financial-services-commission-ai.png](financial-services-commission-ai.png) |
 | Financial Services Commission | Financial Services Commission, FSC, GI | [financial-services-commission-gi.png](financial-services-commission-gi.png) |
 | Financial Services Commission | Financial Services Commission, FSC, MS | [financial-services-commission-ms.png](financial-services-commission-ms.png) |
@@ -177,9 +179,12 @@
 | Financial Supervisory Service | Financial Supervisory Service, FSS, KR | [financial-supervisory-service.png](financial-supervisory-service.png) |
 | Finansinspektionen | SE, FI, Finansinspektionen, F | [finansinspektionen.png](finansinspektionen.png) |
 | Finanstilsynet (The Financial Supervisory Authority of Norway) | Finanstilsynet, FFSAN, SJ, NO, Finanstilsynet (The Financial Supervisory Authority of Norway) | [finanstilsynet-the-financial-supervisory-authority-of-norw.png](finanstilsynet-the-financial-supervisory-authority-of-norw.png) |
+| Grenada Authority for the Regulation of Financial Institutions | — | [grenada-authority-for-the-regulation-of-financial-institutions.png](grenada-authority-for-the-regulation-of-financial-institutions.png) |
 | Guernsey Financial Services Commission | Guernsey Financial Services Commission, GFSC, GG | [guernsey-financial-services-commission.png](guernsey-financial-services-commission.png) |
 | Hong Kong Monetary Authority | Hong Kong Monetary Authority, HKMA, HK | [hong-kong-monetary-authority.png](hong-kong-monetary-authority.png) |
 | Institut d'Émission d'Outre-Mer | Institut d'Émission d'Outre-Mer, IEOM, NC, PF, WF | [institut-d-emission-d-outre-mer.png](institut-d-emission-d-outre-mer.png) |
+| Institut d’Émission des Départements d’Outre-Mer | IEDOM | [institut-d-emission-des-departements-d-outre-mer.png](institut-d-emission-des-departements-d-outre-mer.png) |
+| Internal Revenue Service | — | [internal-revenue-service.png](internal-revenue-service.png) |
 | Isle of Man Financial Services Authority | Isle of Man Financial Services Authority, IOMFSA, IM | [isle-of-man-financial-services-authority.png](isle-of-man-financial-services-authority.png) |
 | Jersey Financial Services Commission | Jersey Financial Services Commission, JFSC, JE | [jersey-financial-services-commission.png](jersey-financial-services-commission.png) |
 | Kiribati Financial Supervisory Authority | Kiribati Financial Supervisory Authority, KFSA, KI | [kiribati-financial-supervisory-authority.png](kiribati-financial-supervisory-authority.png) |
@@ -210,6 +215,7 @@
 | National Reserve Bank of Tonga | National Reserve Bank of Tonga, NRBT, TO | [national-reserve-bank-of-tonga.png](national-reserve-bank-of-tonga.png) |
 | Nauru Department of Finance | Nauru Department of Finance, NR, DoF | [nauru-department-of-finance.png](nauru-department-of-finance.png) |
 | New York State Department of Financial Services | New York State Department of Financial Services, NYSDFS, US | [new-york-state-department-of-financial-services.png](new-york-state-department-of-financial-services.png) |
+| New Zealand Commerce Commission | — | [new-zealand-commerce-commission.png](new-zealand-commerce-commission.png) |
 | Nigeria Deposit Insurance Corporation | Nigeria Deposit Insurance Corporation, NDIC, NG | [nigeria-deposit-insurance-corporation.png](nigeria-deposit-insurance-corporation.png) |
 | Niue Ministry of Finance | Niue Ministry of Finance, NU, MOF | [niue-ministry-of-finance.png](niue-ministry-of-finance.png) |
 | Office of the Commissioner of Financial Institutions | OCFI, Office of the Commissioner of Financial Institutions, OCIF, PR | [office-of-the-commissioner-of-financial-institutions.png](office-of-the-commissioner-of-financial-institutions.png) |

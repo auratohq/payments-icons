@@ -3,11 +3,11 @@
     "id": "ops_1link",
     "name": "1LINK (Guarantee) Limited",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 27618,
-    "sha256": "e5a28d2813e839f991a97a5cf355fb1153039f36f13fcb3bf8fd0c9c54581892",
-    "upstreamPath": "operators/ops_1link.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2492,
+    "sha256": "c4620ba02e5b092f4048230435b05fa04592694da5c9b55c1e256bab7e02495f",
+    "upstreamPath": "48/operators/ops_1link.png.webp",
     "aliases": [
       "1LINK"
     ],
@@ -21,11 +21,11 @@
     "id": "ops_abs",
     "name": "Association of Banks in Singapore",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 44512,
-    "sha256": "158b61d64f6535f38e08bc2968041f7fb1cec7895f185631091658e2f6dd4dcd",
-    "upstreamPath": "operators/ops_abs.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2591,
+    "sha256": "427d9ab22abcbcd0195b1d6bf230623ec192e238a2ea47aa560a9bf2c47d3de1",
+    "upstreamPath": "48/operators/ops_abs.png.webp",
     "aliases": [
       "abs",
       "Association of Banks in Singapore"
@@ -37,14 +37,107 @@
     "path": "operators/abs.png"
   },
   {
+    "id": "ops_ach_colombia",
+    "name": "ACH Colombia S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2429,
+    "sha256": "249c9332cd52f062ccb3be8b3aa71258838bcf700db7042456e9012711a084b5",
+    "upstreamPath": "48/operators/ops_ach_colombia.png.webp",
+    "aliases": [
+      "ACH Colombia"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/ach-colombia-operator.png"
+  },
+  {
+    "id": "ops_ach_nicaragua",
+    "name": "ACH de Nicaragua S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1873,
+    "sha256": "22697465b957b13470c3c77643fdcb93a87b10386144bfa48d617150c16674d9",
+    "upstreamPath": "48/operators/ops_ach_nicaragua.png.webp",
+    "aliases": [
+      "UNIRED"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/ach-de-nicaragua-operator.png"
+  },
+  {
+    "id": "ops_afghanistan_payments_system",
+    "name": "Afghanistan Payments System",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3704,
+    "sha256": "65bebe98e9427663f91f683fd4cf54dee5c8dfec8013818e461a13aebd8a15ba",
+    "upstreamPath": "48/operators/ops_afghanistan_payments_system.png.webp",
+    "aliases": [
+      "APS Afghanistan",
+      "Afghanistan Payments System Directorate General"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/afghanistan-payments-system-operator.png"
+  },
+  {
+    "id": "ops_afrigopay",
+    "name": "AfriGOPay Financial Services Ltd",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1951,
+    "sha256": "e2ce7060c6c99df06ba12f9c82f2992dd32e4146549e54243cf76149b924f4d1",
+    "upstreamPath": "48/operators/ops_afrigopay.png.webp",
+    "aliases": [
+      "AfriGo Pay",
+      "AFSL"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/afrigopay-financial-services.png"
+  },
+  {
+    "id": "ops_agent_banking_company_ug",
+    "name": "Agent Banking Company of Uganda",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2516,
+    "sha256": "dba22b2a8dbe05747d63e147e819cfd2213f6bf948982a4914962b0ee16d89e6",
+    "upstreamPath": "48/operators/ops_agent_banking_company_ug.png.webp",
+    "aliases": [
+      "Agent Banking Company",
+      "ABC Uganda"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/agent-banking-company-uganda.png"
+  },
+  {
     "id": "ops_aircash",
     "name": "Aircash",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 15995,
-    "sha256": "ce7e69218b9c9f4f4286fc2a2eceb8702483e6b6e09b86320c206797443b97ea",
-    "upstreamPath": "operators/ops_aircash.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1526,
+    "sha256": "b4fd16dad828f86b2247d074879f46ed47aef735e970a7e9599da6ab7f84bbcd",
+    "upstreamPath": "48/operators/ops_aircash.png.webp",
     "aliases": [
       "Aircash d.o.o.",
       "Abon operator"
@@ -59,11 +152,11 @@
     "id": "ops_al_etihad_payments",
     "name": "Al Etihad Payments",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 16214,
-    "sha256": "c614b81f9f5d00839c4310c3737d3a9d35bc4fcdf337e4047b548d6e4d956044",
-    "upstreamPath": "operators/ops_al_etihad_payments.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2182,
+    "sha256": "9250eff68296fb0cebb4ace31defbf30ae3f95a5aa10208f0d297b781ebcb212",
+    "upstreamPath": "48/operators/ops_al_etihad_payments.png.webp",
     "aliases": [
       "AEP"
     ],
@@ -74,14 +167,32 @@
     "path": "operators/al-etihad-payments.png"
   },
   {
+    "id": "ops_alto_network",
+    "name": "PT Alto Network",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2564,
+    "sha256": "8b43333e895799777902f4e56ee37d645b22fe89ec228225a2629a429d104f46",
+    "upstreamPath": "48/operators/ops_alto_network.png.webp",
+    "aliases": [
+      "Alto Network"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/alto-network.png"
+  },
+  {
     "id": "ops_amex",
     "name": "American Express Company",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 16146,
-    "sha256": "51494b6ba696435ff5da1690756f3d3e40d3460461c9bbe59ce0218e3157cdd4",
-    "upstreamPath": "operators/ops_amex.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2759,
+    "sha256": "7520bcf0a88458d1cfd04e1ac8a73ec9a2240f33caa6826a9b20e3e61762eb31",
+    "upstreamPath": "48/operators/ops_amex.png.webp",
     "aliases": [
       "American Express Company",
       "amex"
@@ -96,11 +207,11 @@
     "id": "ops_ancv",
     "name": "Agence Nationale pour les Chèques-Vacances",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 24048,
-    "sha256": "ee06d175c61a031e90701d89a99e54cfea2eb932b06acf653cf8fcb40b3135c8",
-    "upstreamPath": "operators/ops_ancv.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2227,
+    "sha256": "291f9981411c295e75756a3ef72a1915d353f79acb4f5e8fc1a6b36f60538304",
+    "upstreamPath": "48/operators/ops_ancv.png.webp",
     "aliases": [
       "ANCV"
     ],
@@ -111,20 +222,40 @@
     "path": "operators/ancv.png"
   },
   {
+    "id": "ops_ant_group",
+    "name": "Ant Group",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2803,
+    "sha256": "15bf4a57f68ad3bfae67f95ed39717a5bd1f9a22990bd8e2ab600fd7e3ba3224",
+    "upstreamPath": "48/operators/ops_ant_group.png.webp",
+    "aliases": [
+      "Ant Financial",
+      "Ant Financial Services Group",
+      "蚂蚁集团"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/ant-group.png"
+  },
+  {
     "id": "ops_ant_intl",
     "name": "Ant International",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 7333,
-    "sha256": "2cc7c32d83240c89dbe77f033beb26634e2d6f9f00d1aab3a90a25508ea42246",
-    "upstreamPath": "operators/ops_ant_intl.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2671,
+    "sha256": "214ee0c1659ae40a73554fc7e6c5bd8071ca19c3b3d11edb42e981a2444b55ad",
+    "upstreamPath": "48/operators/ops_ant_intl_20261031.png.webp",
     "aliases": [
       "Ant International",
       "ant_intl"
     ],
     "source": {
-      "kind": "generated",
+      "kind": "provided",
       "url": null
     },
     "path": "operators/ant-intl.png"
@@ -133,11 +264,11 @@
     "id": "ops_apple",
     "name": "Apple Inc.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 7937,
-    "sha256": "12aea612db1aad4b42fc731e13084e41e2fb8bcab6c5c64bb72802593e66fcd7",
-    "upstreamPath": "operators/ops_apple.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1512,
+    "sha256": "b88f1d843d18b3297b793792d05a3e205e6825a2b73a1166dc35d6ae72f2f2bb",
+    "upstreamPath": "48/operators/ops_apple.png.webp",
     "aliases": [
       "Apple"
     ],
@@ -151,11 +282,11 @@
     "id": "ops_armenian_card",
     "name": "Armenian Card CJSC",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 18248,
-    "sha256": "88993d4afec1eeb5829b074649cba05c570305e5ce785c292b39ac6d18d3292f",
-    "upstreamPath": "operators/ops_armenian_card.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1835,
+    "sha256": "5375bc2df0f6546a2b6a51813784ad005edc3a5c337a9cdcd2ac22b1a9dee6ff",
+    "upstreamPath": "48/operators/ops_armenian_card.png.webp",
     "aliases": [
       "ArCa operator",
       "Armenian Card"
@@ -167,33 +298,196 @@
     "path": "operators/armenian-card.png"
   },
   {
+    "id": "ops_artajasa",
+    "name": "PT Artajasa Pembayaran Elektronis",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2679,
+    "sha256": "4fce380a8b39ec0fd079173c4f4cfb77fcd18fa591d0cb4d0f513e2e9041e6ae",
+    "upstreamPath": "48/operators/ops_artajasa.png.webp",
+    "aliases": [
+      "Artajasa"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/artajasa-pembayaran-elektronis.png"
+  },
+  {
+    "id": "ops_aspi",
+    "name": "Asosiasi Sistem Pembayaran Indonesia",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2672,
+    "sha256": "2253b4acabb9dfd5d0d678bb6a0ab8ce16ac487fb8e3d08befb234c0e2905500",
+    "upstreamPath": "48/operators/ops_aspi.png.webp",
+    "aliases": [
+      "Indonesian Payment System Association"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/aspi.png"
+  },
+  {
     "id": "ops_astropay",
     "name": "AstroPay",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 13428,
-    "sha256": "80bb7d5faa0397ba5854d97e0e721ed4e718e51d05e392f90bfabefc2d8097f0",
-    "upstreamPath": "operators/ops_astropay.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1726,
+    "sha256": "b2a31b5eb334af09bb5b4abe10ab9c2ec24d64f69ed680fad7b38aa37c88534c",
+    "upstreamPath": "48/operators/ops_astropay.png.webp",
     "aliases": [
       "AstroPay Limited"
     ],
     "source": {
       "kind": "curated_brand_asset",
-      "url": null,
-      "reference": "payment-methods/astropay.png"
+      "url": null
     },
     "path": "operators/astropay.png"
+  },
+  {
+    "id": "ops_australian_payments_plus",
+    "name": "Australian Payments Plus",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2026,
+    "sha256": "bebefbad92772237812f657b241c45c794ee15065365db63ae65f885ad2e7fca",
+    "upstreamPath": "48/operators/ops_australian_payments_plus.png.webp",
+    "aliases": [
+      "AusPayNet Payments Plus"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/australian-payments-plus.png"
+  },
+  {
+    "id": "ops_automated_payments_limited_jm",
+    "name": "Automated Payments Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3934,
+    "sha256": "9f8714fd8ef563cc62696e6df2c84f8796f1af7380ec101f407cfa0cca4e38c9",
+    "upstreamPath": "48/operators/ops_automated_payments_limited_jm.png.webp",
+    "aliases": [
+      "Automated Payments Ltd."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/automated-payments-limited-jamaica.png"
+  },
+  {
+    "id": "ops_autopay_pl",
+    "name": "Autopay S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1022,
+    "sha256": "70cf89299f9e609ee5ac318493eec14e403685c047f2d40e90e07791a4be2c3f",
+    "upstreamPath": "48/operators/ops_autopay_pl.png.webp",
+    "aliases": [
+      "Blue Media S.A."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/autopay-poland-payment-system-operator.png"
+  },
+  {
+    "id": "ops_bamcard_ba",
+    "name": "BAMCARD d.d. Sarajevo",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2477,
+    "sha256": "48c5f42673e175472689b94c5c9a280ca79c9b2f06ad71960d0f8265bae477b2",
+    "upstreamPath": "48/operators/ops_bamcard_ba.png.webp",
+    "aliases": [
+      "Bamcard d.d.",
+      "BAMCARD Sarajevo"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bamcard-dd-sarajevo.png"
+  },
+  {
+    "id": "ops_bancard_py",
+    "name": "Bancard S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1619,
+    "sha256": "cff872b8b473880c770274e39dd2f6066563502f3553039dcdc1077cf83bffa0",
+    "upstreamPath": "48/operators/ops_bancard_py.png.webp",
+    "aliases": [
+      "Bancard"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bancard-paraguay.png"
+  },
+  {
+    "id": "ops_bcra_payments_ar",
+    "name": "Banco Central de la República Argentina — Payments Operator",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4630,
+    "sha256": "d4c5ab63f9cc7df62662d8c4c284451e06a7b49d7c25b9486596bbfa7b25ae18",
+    "upstreamPath": "48/operators/ops_bcra_payments_ar.png.webp",
+    "aliases": [
+      "BCRA Payments",
+      "Central Bank of Argentina payment systems operator"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/banco-central-republica-argentina-payments-operator.png"
+  },
+  {
+    "id": "ops_bm_payments_mz",
+    "name": "Banco de Moçambique Payment Systems Operator",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4389,
+    "sha256": "874e53256530642beaf5196d42a607957b584914ce6facf9da6f28860332e8f7",
+    "upstreamPath": "48/operators/ops_bm_payments_mz.png.webp",
+    "aliases": [
+      "Banco de Moçambique payment systems function"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/banco-de-mocambique-payment-systems-operator.png"
   },
   {
     "id": "ops_bancomat",
     "name": "BANCOMAT S.p.A.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 18905,
-    "sha256": "c55ae83a5ca2f6b2fe551ed573312fe3cc50e761918f71afa41522aa7e2c54c2",
-    "upstreamPath": "operators/ops_bancomat.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1428,
+    "sha256": "ab0bd04b229a50bfd5977db73f5c6d8cf778c291a99b92c5aea45b4d0167724d",
+    "upstreamPath": "48/operators/ops_bancomat.png.webp",
     "aliases": [
       "bancomat",
       "BANCOMAT S.p.A."
@@ -208,30 +502,119 @@
     "id": "ops_bancontact_company",
     "name": "Bancontact Company",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 11254,
-    "sha256": "50d940b7ddc0aa187926c19c9685e247652c097726eaa04ad79bfa3dcce02a31",
-    "upstreamPath": "operators/ops_bancontact_company.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1009,
+    "sha256": "f3b6e821003c4599cf9195a0a3add9d3577af19870ed091e3f8f6dc1a63a97c7",
+    "upstreamPath": "48/operators/ops_bancontact_company.png.webp",
     "aliases": [
       "Bancontact Payconiq Company"
     ],
     "source": {
       "kind": "curated_brand_asset",
-      "url": null,
-      "reference": "schemes/bancontact.png"
+      "url": null
     },
     "path": "operators/bancontact-company.png"
+  },
+  {
+    "id": "ops_bam_payments_ma",
+    "name": "Bank Al-Maghrib Payment Systems Operator",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2411,
+    "sha256": "c0657e9eb5c710d1da5e8f6a630c1c92924d6733a63082671f70c143dd8e1e65",
+    "upstreamPath": "48/operators/ops_bam_payments_ma.png.webp",
+    "aliases": [
+      "Bank Al-Maghrib payments function"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bank-al-maghrib-payment-systems-operator.png"
+  },
+  {
+    "id": "ops_bnm_payments_my",
+    "name": "Bank Negara Malaysia",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2422,
+    "sha256": "0ac8e4bec1feecb1dcce85a7a16873810e360d5c895acdbe14f6ce99b3a11228",
+    "upstreamPath": "48/operators/ops_bnm_payments_my.png.webp",
+    "aliases": [
+      "BNM"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": "https://rehdainstitute.com/wp-content/uploads/2023/11/BNM-AR-2021.pdf"
+    },
+    "path": "operators/bank-negara-malaysia-payments-operator.png"
+  },
+  {
+    "id": "ops_bank_of_mauritius",
+    "name": "Bank of Mauritius",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4044,
+    "sha256": "694f57384aaf4467401a31f21c9ffe6c632cb84d9edf7a99d90d9d4c1955730b",
+    "upstreamPath": "48/operators/ops_bank_of_mauritius.png.webp",
+    "aliases": [
+      "Central Bank of Mauritius"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bank-of-mauritius-operator.png"
+  },
+  {
+    "id": "ops_bpng_pg",
+    "name": "Bank of Papua New Guinea",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3876,
+    "sha256": "e7b27da2036a7689e9787a219f1e19ce2a804d15f731ec576dd1bc60b927acba",
+    "upstreamPath": "48/operators/ops_bpng_pg.png.webp",
+    "aliases": [
+      "Central Bank of Papua New Guinea"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bank-of-papua-new-guinea-operator.png"
+  },
+  {
+    "id": "ops_bkm",
+    "name": "Bankalararası Kart Merkezi",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2644,
+    "sha256": "56975b598da57bb7cde42ab5f3307982e14027e91d467adbd77c8864bca75cb5",
+    "upstreamPath": "48/operators/ops_bkm.png.webp",
+    "aliases": [
+      "Interbank Card Center"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bankalararasi-kart-merkezi.png"
   },
   {
     "id": "ops_bankart",
     "name": "Bankart d.o.o.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 45547,
-    "sha256": "9807cfbabeceded24500ad622f7448abdc066f92d18e4ceb8fcd6c99cd9216c1",
-    "upstreamPath": "operators/ops_bankart.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2354,
+    "sha256": "bbaf44b519995b621bcc8e591f2f585f8899122a4dae917f896c0b9b78a37ebd",
+    "upstreamPath": "48/operators/ops_bankart.png.webp",
     "aliases": [
       "Bankart"
     ],
@@ -242,40 +625,110 @@
     "path": "operators/bankart.png"
   },
   {
+    "id": "ops_banking_computer_services_sg",
+    "name": "Banking Computer Services Private Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2018,
+    "sha256": "bdde097c3951e6814f0f09647e917292ea5c1915ecf82f5297c17fd3e306597a",
+    "upstreamPath": "48/operators/ops_banking_computer_services_sg.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/banking-computer-services-singapore.png"
+  },
+  {
+    "id": "ops_banred_uy",
+    "name": "Banred",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3970,
+    "sha256": "878b9f57c993eee9ebdbde2c13ecaa3315086b4ede4d8731743efe7149ad1157",
+    "upstreamPath": "48/operators/ops_banred_uy.png.webp",
+    "aliases": [
+      "Banred Uruguay"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/banred-uruguay.png"
+  },
+  {
     "id": "ops_bc_card",
     "name": "BC Card Co., Ltd.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 56535,
-    "sha256": "ef44d3987b59d168640f88cc72e4e39565a2c725824bc9ce0a63bf38d04a1084",
-    "upstreamPath": "operators/ops_bc_card.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 3672,
+    "sha256": "242ef27ecc8c9b98a58d3453e2199ed1f9919de869529f33316fc075a24122f8",
+    "upstreamPath": "48/operators/ops_bc_card.png.webp",
     "aliases": [
       "BC Card"
     ],
     "source": {
       "kind": "curated_brand_asset",
-      "url": null,
-      "reference": "payment-methods/bc-card.png"
+      "url": null
     },
     "path": "operators/bc-card.png"
+  },
+  {
+    "id": "ops_bcrp_pe",
+    "name": "Banco Central de Reserva del Perú",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4367,
+    "sha256": "beed9e651ab8cd1b267f737fa45ca55863c9759ba6565309a80e9daf05702c06",
+    "upstreamPath": "48/operators/ops_bcrp_pe.png.webp",
+    "aliases": [
+      "Banco Central de Reserva del Peru",
+      "BCRP Peru"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bcrp-peru.png"
+  },
+  {
+    "id": "ops_bcs_sg",
+    "name": "BCS Information Systems Pte Ltd",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4812,
+    "sha256": "227770fa27098390d5e73f22d6c005533d91fb9f1ddca6a7ab6d60088746653b",
+    "upstreamPath": "48/operators/ops_bcs_sg.png.webp",
+    "aliases": [
+      "BCS Information Systems",
+      "BCS"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bcs-information-systems-singapore.png"
   },
   {
     "id": "ops_belkart",
     "name": "Belkart Payment System",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 16111,
-    "sha256": "113c326d6f1701f270d57d72dee287a531248d15cb5008c24616ebea969036f6",
-    "upstreamPath": "operators/ops_belkart.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2122,
+    "sha256": "2ad64662af7906fbe78fdf88295b16e4d490a21c09aac12cbe166ae918ee5e86",
+    "upstreamPath": "48/operators/ops_belkart.png.webp",
     "aliases": [
       "BELKART operator"
     ],
     "source": {
       "kind": "curated_brand_asset",
-      "url": null,
-      "reference": "schemes/belkart.png"
+      "url": null
     },
     "path": "operators/belkart-payment-system.png"
   },
@@ -283,11 +736,11 @@
     "id": "ops_benefit",
     "name": "The BENEFIT Company",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 24659,
-    "sha256": "cce1b99fdd4bdac7f516326b3cc48369e2a64ac3161da8c684e7aded933b8ab1",
-    "upstreamPath": "operators/ops_benefit.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2344,
+    "sha256": "b3406f10237dd17f718e1c7ddb7a4521e89834c4a0040b63c668b3762ba0af66",
+    "upstreamPath": "48/operators/ops_benefit.png.webp",
     "aliases": [
       "benefit",
       "The BENEFIT Company"
@@ -299,14 +752,48 @@
     "path": "operators/benefit.png"
   },
   {
+    "id": "ops_bepsa_py",
+    "name": "BEPSA",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3366,
+    "sha256": "f3f188ce1fcdce67079260ee2acec05344441745718f5916d521e3cf2add4738",
+    "upstreamPath": "48/operators/ops_bepsa_py.png.webp",
+    "aliases": [
+      "BEPSA Paraguay"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bepsa-paraguay.png"
+  },
+  {
+    "id": "ops_betaalvereniging_nederland",
+    "name": "Betaalvereniging Nederland",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2829,
+    "sha256": "23406282731d14c870d8afa4aa7e81ddabc5527e07c9f50b408b0bf63ced0898",
+    "upstreamPath": "48/operators/ops_betaalvereniging_nederland.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/betaalvereniging-nederland.png"
+  },
+  {
     "id": "ops_billink",
     "name": "Billink B.V.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 7111,
-    "sha256": "12f97acb7a95deb0f21d1d742a2fe7e32824cac9185b24607c6905a1bd050289",
-    "upstreamPath": "operators/ops_billink.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1236,
+    "sha256": "486e4fdfd85ee1c8e38be5269c791a1b908b93660fb9aab236092ebe3819a68c",
+    "upstreamPath": "48/operators/ops_billink.png.webp",
     "aliases": [
       "Billink"
     ],
@@ -317,14 +804,32 @@
     "path": "operators/billink-operator.png"
   },
   {
+    "id": "ops_bits_no",
+    "name": "Bits AS",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2542,
+    "sha256": "0c2fb7297d8596d9d69fed5436c34afc5fb1659704bdf340303bfbe6e2578b61",
+    "upstreamPath": "48/operators/ops_bits_no.png.webp",
+    "aliases": [
+      "Bits"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/bits-norway.png"
+  },
+  {
     "id": "ops_bizum",
     "name": "Bizum S.L.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 19081,
-    "sha256": "74041769600dc4ce7d99ef18a3510d648e6e7ba64ef55df2a76cd2383c2df553",
-    "upstreamPath": "operators/ops_bizum.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2298,
+    "sha256": "9521e9f5b3a189677d007789a082ef8c69bfb18bfa576667f60c6df6bd99006b",
+    "upstreamPath": "48/operators/ops_bizum.png.webp",
     "aliases": [
       "bizum",
       "Bizum S.L."
@@ -339,11 +844,11 @@
     "id": "ops_bkash",
     "name": "bKash Limited",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 27190,
-    "sha256": "1a7b546ebc1ed302204c8f56334b93cba19190c9e79ba4dfcd6bc4a3b2a705a9",
-    "upstreamPath": "operators/ops_bkash.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2101,
+    "sha256": "cac01309c52e9ee0a989c6ab42b9c6a4a9cc6e91a0f211963c04c55e86109371",
+    "upstreamPath": "48/operators/ops_bkash.png.webp",
     "aliases": [
       "bkash",
       "bKash Limited"
@@ -358,30 +863,252 @@
     "id": "ops_block",
     "name": "Block, Inc.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 9482,
-    "sha256": "8b7b8d039ec86a0c1e155bc0825bc2e84a0ce0dff0cc6ed6137bb98ddf866791",
-    "upstreamPath": "operators/ops_block.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1302,
+    "sha256": "b3cd1173c87f6923f88436779a3eb53c6d07dc43d4061e00b9d1257c8fffc75e",
+    "upstreamPath": "48/operators/ops_block.png.webp",
     "aliases": [
       "block",
       "Block, Inc."
     ],
     "source": {
-      "kind": "generated",
+      "kind": "provided",
       "url": null
     },
     "path": "operators/block.png"
   },
   {
+    "id": "ops_borica_bg",
+    "name": "BORICA AD",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3246,
+    "sha256": "3897778d12bc6b6cdf816b11d33cb7882f6f78ded093640fcabb6e9ed1cda136",
+    "upstreamPath": "48/operators/ops_borica_bg.png.webp",
+    "aliases": [
+      "BORICA JSC"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/borica-ad-bulgaria.png"
+  },
+  {
+    "id": "ops_cce_pe",
+    "name": "Cámara de Compensación Electrónica S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2768,
+    "sha256": "6a829f22e1753a21fcc5ac64cb19408f58f3bf2dd5460faaaf2cbf6bd419cac3",
+    "upstreamPath": "48/operators/ops_cce_pe.png.webp",
+    "aliases": [
+      "CCE Peru"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/camara-compensacion-electronica-operator-peru.png"
+  },
+  {
+    "id": "ops_cavali_pe",
+    "name": "CAVALI S.A. I.C.L.V.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2445,
+    "sha256": "5a796fe6c5d22872f13648a48e97097ade9c7a12973d55e91404a30d729d8e44",
+    "upstreamPath": "48/operators/ops_cavali_pe.png.webp",
+    "aliases": [
+      "CAVALI Peru"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/cavali-peru.png"
+  },
+  {
+    "id": "ops_central_bank_of_iraq_payments",
+    "name": "Central Bank of Iraq (Payment Systems Operator)",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4514,
+    "sha256": "0015cd17ec8dc8a836ba73e7e5340992002317035669c8136b2cfe16d9d33a24",
+    "upstreamPath": "48/operators/ops_central_bank_of_iraq_payments.png.webp",
+    "aliases": [
+      "Iraqi Central Bank payment systems operator",
+      "CBI Payment Systems"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/central-bank-of-iraq-payment-systems-operator.png"
+  },
+  {
+    "id": "ops_cbu_payments_uz",
+    "name": "Central Bank of Uzbekistan Payment Systems Operator",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3323,
+    "sha256": "c817c443633d3f88f92c74c48bced1a15f705f4a779eb9f6b7082390d7679bb2",
+    "upstreamPath": "48/operators/ops_cbu_payments_uz.png.webp",
+    "aliases": [
+      "Central Bank payment systems function"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/central-bank-uzbekistan-payment-systems-operator.png"
+  },
+  {
+    "id": "ops_cby_payments_ye",
+    "name": "Central Bank of Yemen — Payments Operator",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3983,
+    "sha256": "8700c5d59032d3e7187d2f431b8aa00e6d6bda6d582b58b9b3fb9901f9a06157",
+    "upstreamPath": "48/operators/ops_cby_payments_ye.png.webp",
+    "aliases": [
+      "CBY General Department of Payment Systems",
+      "Central Bank of Yemen Payments Department"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/central-bank-yemen-payments-operator.png"
+  },
+  {
+    "id": "ops_cmi_dz",
+    "name": "Centre Monétique Interbancaire",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2950,
+    "sha256": "07bd0d0610a2851b42b6f1f1e4dab152513a11abfe9bdb6772e1b3133fda7ada",
+    "upstreamPath": "48/operators/ops_cmi_dz.png.webp",
+    "aliases": [
+      "CMI Algeria"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/centre-monetique-interbancaire-algeria.png"
+  },
+  {
+    "id": "ops_cmi_ma",
+    "name": "Centre Monétique Interbancaire Morocco",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2950,
+    "sha256": "07bd0d0610a2851b42b6f1f1e4dab152513a11abfe9bdb6772e1b3133fda7ada",
+    "upstreamPath": "48/operators/ops_cmi_ma.png.webp",
+    "aliases": [
+      "CMI",
+      "Centre Monétique Interbancaire"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/centre-monetique-interbancaire-morocco.png"
+  },
+  {
+    "id": "ops_cpi_dz",
+    "name": "Centre de Pré-compensation Interbancaire",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2456,
+    "sha256": "24498b76ee0d58818897ae9f17f7c4e2caac8dec473c3af86631069f03d90389",
+    "upstreamPath": "48/operators/ops_cpi_dz.png.webp",
+    "aliases": [
+      "Centre de Précompensation Interbancaire",
+      "CPI Algeria"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/centre-precompensation-interbancaire-algeria.png"
+  },
+  {
+    "id": "ops_ceproban_hn",
+    "name": "Centro de Procesamiento Interbancario",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1890,
+    "sha256": "bec2bf95028aa258dae02b9e99bfdb42bd12f99723c8012739c9f74d166dc19c",
+    "upstreamPath": "48/operators/ops_ceproban_hn.png.webp",
+    "aliases": [
+      "CEPROBAN"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/centro-de-procesamiento-interbancario-honduras.png"
+  },
+  {
+    "id": "ops_kibs_mk",
+    "name": "Clearing House KIBS AD Skopje",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2295,
+    "sha256": "d01b1b9416fbe6c822e9d207bf15463da33232c4b5e504168839508e3b2da466",
+    "upstreamPath": "48/operators/ops_kibs_mk.png.webp",
+    "aliases": [
+      "KIBS AD Skopje",
+      "KIBS",
+      "Clearing Interbank Systems AD Skopje"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/clearing-house-kibs-ad-skopje.png"
+  },
+  {
+    "id": "ops_coelsa_ar",
+    "name": "Compensadora Electrónica S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2322,
+    "sha256": "e9250bdb8b7c493af7915a37000bbc09b6182a52d61113fe63b6d57cefc7a221",
+    "upstreamPath": "48/operators/ops_coelsa_ar.png.webp",
+    "aliases": [
+      "COELSA Argentina"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/coelsa-argentina.png"
+  },
+  {
     "id": "ops_credicorp",
     "name": "Credicorp / Banco de Crédito del Perú",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 26667,
-    "sha256": "b113ac7360c9db66fa5658fd92545074a24a4dcbc8004208104a4955eb625859",
-    "upstreamPath": "operators/ops_credicorp.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1797,
+    "sha256": "d8b0d6c1bc2346a3b0f98e050de932b197bd44ff66e88e884479d7ef0e2db30f",
+    "upstreamPath": "48/operators/ops_credicorp.png.webp",
     "aliases": [
       "credicorp",
       "Credicorp / Banco de Crédito del Perú"
@@ -396,11 +1123,11 @@
     "id": "ops_currence",
     "name": "Currence iDEAL B.V.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 19141,
-    "sha256": "719f21c51bafd20f963c5115199c3072c0f1145b5638db04fb237284f319c4b3",
-    "upstreamPath": "operators/ops_currence.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2221,
+    "sha256": "dcf5baca986dc4f42dddd7d867434f815b6a3782ffc2442df63864a42a8bc59c",
+    "upstreamPath": "48/operators/ops_currence.png.webp",
     "aliases": [
       "currence",
       "Currence iDEAL B.V."
@@ -412,14 +1139,52 @@
     "path": "operators/currence.png"
   },
   {
+    "id": "ops_cuscal_paymark_nz",
+    "name": "Cuscal Paymark",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 782,
+    "sha256": "9a3b85742f2ad4dac00c64c63bb74fac53799a6fd0b0e542415a14231c219063",
+    "upstreamPath": "48/operators/ops_cuscal_paymark_nz.png.webp",
+    "aliases": [
+      "Paymark Limited",
+      "Cuscal Paymark NZ"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/cuscal-paymark-new-zealand.png"
+  },
+  {
+    "id": "ops_dab_payments_af",
+    "name": "Da Afghanistan Bank — Payments Operator",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4903,
+    "sha256": "b47a538c9e11915dc7b0fe40a39b9928cf8b981d0e611b04a138e669273e251a",
+    "upstreamPath": "48/operators/ops_dab_payments_af.png.webp",
+    "aliases": [
+      "DAB Payments Directorate General",
+      "DAB Payments Department"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/da-afghanistan-bank-payments-operator.png"
+  },
+  {
     "id": "ops_dana",
     "name": "PT Espay Debit Indonesia Koe",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 30724,
-    "sha256": "0c38e995dcd6cbe5bd28f8870a7f42f5cecc8ec9b8cf7fb1b2104c0db8c27aa3",
-    "upstreamPath": "operators/ops_dana.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2937,
+    "sha256": "9276e7a83f190d7dc057c43c5dae8c47f3cc13cac61797901d6362d176f4d0fb",
+    "upstreamPath": "48/operators/ops_dana.png.webp",
     "aliases": [
       "dana",
       "PT Espay Debit Indonesia Koe"
@@ -434,11 +1199,11 @@
     "id": "ops_davivienda",
     "name": "Banco Davivienda",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 15691,
-    "sha256": "3fd9bade2da1d3c36a6a0a4267b210116bceb8e46309ee5b749ecd451182f8e4",
-    "upstreamPath": "operators/ops_davivienda.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2271,
+    "sha256": "39a428b6324589d55a6e66491ec31baa3804935164f761fd5328e1b1d7cefdf3",
+    "upstreamPath": "48/operators/ops_davivienda.png.webp",
     "aliases": [
       "Banco Davivienda",
       "davivienda"
@@ -453,11 +1218,11 @@
     "id": "ops_dias",
     "name": "DIAS Interbanking Systems S.A.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 13648,
-    "sha256": "26c82dbde0b5cc5c64008d60dd83da7d8e0a81c7404b6c52b383a615ee74e00b",
-    "upstreamPath": "operators/ops_dias.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1681,
+    "sha256": "23f0764c23eb0eb703b1e8ef4048cbaa0db21cb7ef715bcbb281f6d03708f3d9",
+    "upstreamPath": "48/operators/ops_dias.png.webp",
     "aliases": [
       "DIAS",
       "DIAS S.A."
@@ -472,11 +1237,11 @@
     "id": "ops_dinarak",
     "name": "Dinarak",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 26822,
-    "sha256": "45a17a0db022c0f2259c7a7379ae422bf11cc2ab65d6e46cdfe8b49133571fcc",
-    "upstreamPath": "operators/ops_dinarak.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2388,
+    "sha256": "49e68b92eddfe8e551464248fefce0637c23ab0e67eccc883a1c4663157723b2",
+    "upstreamPath": "48/operators/ops_dinarak.png.webp",
     "aliases": [
       "Dinarak operator"
     ],
@@ -490,11 +1255,11 @@
     "id": "ops_easypaisa",
     "name": "easypaisa Bank Limited",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 27047,
-    "sha256": "e629849606098b207d2468193e21909e1063c2c913436136ab7b6da6a07202cb",
-    "upstreamPath": "operators/ops_easypaisa.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2763,
+    "sha256": "1ee7696d4131a311171ce82d1caeb378c0e3ca189f2cc693bbf30c110bf9c5fb",
+    "upstreamPath": "48/operators/ops_easypaisa.png.webp",
     "aliases": [
       "easypaisa",
       "easypaisa Bank Limited"
@@ -509,11 +1274,11 @@
     "id": "ops_eba_clearing",
     "name": "EBA CLEARING",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 32638,
-    "sha256": "9708d74976191c86702248501896b4a4ca8144675fbd9c90cedf631a0f10ab87",
-    "upstreamPath": "operators/ops_eba_clearing.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1746,
+    "sha256": "b059c0acbcb060d48524c01b8e2248071eb0882c4e151da32fb2cc218cd4a7f6",
+    "upstreamPath": "48/operators/ops_eba_clearing.png.webp",
     "aliases": [
       "EBA Clearing",
       "EURO1",
@@ -527,14 +1292,52 @@
     "path": "operators/eba-clearing.png"
   },
   {
+    "id": "ops_ebc",
+    "name": "Egyptian Banks Company",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2616,
+    "sha256": "9ee51c94b03ace6eb05b2a255eeb06888337ef607752e0122e14d23b69740073",
+    "upstreamPath": "48/operators/ops_ebc.png.webp",
+    "aliases": [
+      "Egyptian Banks Co. for Technological Advancements",
+      "EBC"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/egyptian-banks-company.png"
+  },
+  {
+    "id": "ops_ebs_sudan",
+    "name": "Electronic Banking Services Co. Ltd.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2720,
+    "sha256": "f22c28987d824c742e5f6fc2387b6fcce56cfc0001d712456c068423af249fd2",
+    "upstreamPath": "48/operators/ops_ebs_sudan.png.webp",
+    "aliases": [
+      "EBS Sudan",
+      "Electronic Banking Services"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/electronic-banking-services-sudan.png"
+  },
+  {
     "id": "ops_elkart_ipc",
     "name": "Interbank Processing Center CJSC",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 40374,
-    "sha256": "64bebdf1fd97e7789f703961a29dd4828c507790d1a7ee1d54129592d06e6382",
-    "upstreamPath": "operators/ops_elkart_ipc.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2205,
+    "sha256": "db5a09eb67a963cef3f4584757f807e5f76f533e0f02d9b18d387e64900018f9",
+    "upstreamPath": "48/operators/ops_elkart_ipc.png.webp",
     "aliases": [
       "ELCART operator",
       "IPC Kyrgyzstan"
@@ -546,33 +1349,71 @@
     "path": "operators/elkart-interbank-processing-center.png"
   },
   {
+    "id": "ops_emis_ao",
+    "name": "Empresa Interbancaria de Servicos",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1931,
+    "sha256": "e95f500ca0e5d64299f1c1a5a1794974cb7c287fc19fe06c56296e2b61a86fbd",
+    "upstreamPath": "48/operators/ops_emis_ao.png.webp",
+    "aliases": [
+      "EMIS Angola",
+      "Empresa Interbancaria de Servicos S.A."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/empresa-interbancaria-servicos-angola.png"
+  },
+  {
     "id": "ops_epi",
     "name": "European Payments Initiative",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 25317,
-    "sha256": "427a008c39d8fbec54d3695884c6a1f2c32b03bf2987c7e7a1a4f15446381101",
-    "upstreamPath": "operators/ops_epi.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2253,
+    "sha256": "2c369c2c2b204ebb3be0dfe78ac2fb06b282deacf3417f3595971d46776ed779",
+    "upstreamPath": "48/operators/ops_epi.png.webp",
     "aliases": [
       "epi",
       "European Payments Initiative"
     ],
     "source": {
-      "kind": "generated",
+      "kind": "provided",
       "url": null
     },
     "path": "operators/epi.png"
   },
   {
+    "id": "ops_ethswitch",
+    "name": "EthSwitch S.C.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2203,
+    "sha256": "6b60ab48c7ccf84d81cd3428ebea0f6e39a4252ef1bd4f5ce6727cacfc7ba0e9",
+    "upstreamPath": "48/operators/ops_ethswitch.png.webp",
+    "aliases": [
+      "Ethswitch S.C",
+      "Ethiopian Switch"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/ethswitch-sc.png"
+  },
+  {
     "id": "ops_epc",
     "name": "European Payments Council",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 46538,
-    "sha256": "75a881b428f0f8b40b2c237c050f7dfb4c53160df8610370a5446e2f59396df7",
-    "upstreamPath": "operators/ops_epc.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2550,
+    "sha256": "af4d5bb877fb51c36b4f63d3e6ff095a05cb3152021001e985350b691db13627",
+    "upstreamPath": "48/operators/ops_epc.png.webp",
     "aliases": [
       "EPC"
     ],
@@ -583,14 +1424,33 @@
     "path": "operators/european-payments-council.png"
   },
   {
+    "id": "ops_evertec_pr",
+    "name": "Evertec",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3180,
+    "sha256": "ee882337339d1d4a3ccd973733b4c1e0fdbea872eb8f86190e9558ba74835ae8",
+    "upstreamPath": "48/operators/ops_evertec_pr.png.webp",
+    "aliases": [
+      "EVERTEC Inc.",
+      "Evertec Group"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/evertec-puerto-rico.png"
+  },
+  {
     "id": "ops_ews",
     "name": "Early Warning Services",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 4866,
-    "sha256": "38715b879e1a2496ce5ffbf52a7da4b4ca12cac61cc2e705f39e897e9c3ad1f8",
-    "upstreamPath": "operators/ops_ews.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1309,
+    "sha256": "da32b6188dbbf92ddf5c34114efbcba85f68e0e11a5f0de7287176f0422ad441",
+    "upstreamPath": "48/operators/ops_ews.png.webp",
     "aliases": [
       "Early Warning Services",
       "ews"
@@ -605,11 +1465,11 @@
     "id": "ops_fawry",
     "name": "Fawry",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 7314,
-    "sha256": "4f5b899869561a435609ce4a44a16b33c5647478338c74e3b8242f23a18fa534",
-    "upstreamPath": "operators/ops_fawry.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1714,
+    "sha256": "9e777dab59c782257ac40963558672adb50e1f268f0e41e328dbf4f1487b79ce",
+    "upstreamPath": "48/operators/ops_fawry.png.webp",
     "aliases": [
       "fawry"
     ],
@@ -620,14 +1480,124 @@
     "path": "operators/fawry.png"
   },
   {
+    "id": "ops_fisc_tw",
+    "name": "Financial Information Service Co., Ltd.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2244,
+    "sha256": "83116130faff7e88c190351a986a5f974ac9f5dc6dc07ea0d3e8bc45c403a878",
+    "upstreamPath": "48/operators/ops_fisc_tw.png.webp",
+    "aliases": [
+      "Financial Information Service Co.",
+      "財金資訊股份有限公司"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/financial-information-service-taiwan.png"
+  },
+  {
+    "id": "ops_fiserv_polska_pl",
+    "name": "Fiserv Polska S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1535,
+    "sha256": "bd804e2327fca8a357ac305e983ac372e5543784ac030d8a02261006312bcbe6",
+    "upstreamPath": "48/operators/ops_fiserv_polska_pl.png.webp",
+    "aliases": [
+      "First Data Polska S.A."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": "https://investors.fiserv.com/news-events/media-assets"
+    },
+    "path": "operators/fiserv-polska-payment-system-operator.png"
+  },
+  {
+    "id": "ops_fonepay_np",
+    "name": "Fonepay Payment Service Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1471,
+    "sha256": "bd49860183a61f194f6f977e6d93ed4610afeb2863f0fbce66ed638592f809c5",
+    "upstreamPath": "48/operators/ops_fonepay_np.png.webp",
+    "aliases": [
+      "Fonepay Payment Services Ltd."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/fonepay-payment-service.png"
+  },
+  {
+    "id": "ops_gamswitch_company_gm",
+    "name": "Gamswitch Company LTD",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2485,
+    "sha256": "4fb92df4a5827fb7506412b0e027b2934c71fcf17642bf17a711ca6e9707e70f",
+    "upstreamPath": "48/operators/ops_gamswitch_company_gm.png.webp",
+    "aliases": [
+      "Gamswitch Company Limited"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/gamswitch-company-ltd.png"
+  },
+  {
+    "id": "ops_georgian_card_jsc",
+    "name": "Georgian Card JSC",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2003,
+    "sha256": "b56bd71894c5860b8c133d72fa01badbd4824900fca04e33d1471f288244a61a",
+    "upstreamPath": "48/operators/ops_georgian_card_jsc.png.webp",
+    "aliases": [
+      "Georgian Card"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/georgian-card-jsc.png"
+  },
+  {
+    "id": "ops_gbic",
+    "name": "German Banking Industry Committee",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1951,
+    "sha256": "4ac3131d31bc20c1e005046d93e99aea88695c32d9e6abe8734e4e10667315b2",
+    "upstreamPath": "48/operators/ops_gbic.png.webp",
+    "aliases": [
+      "Deutsche Kreditwirtschaft",
+      "DK"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/german-banking-industry-committee.png"
+  },
+  {
     "id": "ops_getswish",
     "name": "Getswish AB",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 20210,
-    "sha256": "b4c1e9e89482e9cadda9ca9e34f3b1a0b22e9abe3f80267a46a3a5e6e8552122",
-    "upstreamPath": "operators/ops_getswish.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2043,
+    "sha256": "d7f63f7b26d743a115434d6191ec78c7b69f938de9b3d7476cf5c82e7a61a21b",
+    "upstreamPath": "48/operators/ops_getswish.png.webp",
     "aliases": [
       "getswish",
       "Getswish AB"
@@ -639,14 +1609,124 @@
     "path": "operators/getswish.png"
   },
   {
+    "id": "ops_ghipss_gh",
+    "name": "Ghana Interbank Payment and Settlement Systems Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2290,
+    "sha256": "e827f4b74d35efc2ab241daafa1baebe4072919b36368f2cf02ddf7e19c2f2b0",
+    "upstreamPath": "48/operators/ops_ghipss_gh.png.webp",
+    "aliases": [
+      "Ghana Interbank Payment & Settlement System Limited"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/ghana-interbank-payment-and-settlement-systems.png"
+  },
+  {
+    "id": "ops_gie_monetique_dz",
+    "name": "GIE Monétique",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2456,
+    "sha256": "24498b76ee0d58818897ae9f17f7c4e2caac8dec473c3af86631069f03d90389",
+    "upstreamPath": "48/operators/ops_gie_monetique_dz.png.webp",
+    "aliases": [
+      "Groupement d’Intérêt Économique Monétique",
+      "GIE Monétique"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/gie-monetique-algeria.png"
+  },
+  {
+    "id": "ops_gim_uemoa",
+    "name": "Groupement Interbancaire Monétique de l’UEMOA",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2789,
+    "sha256": "a8e93f3010e18da183243fd4bb9c3c7be5151ecbc534aaf2df129dd9906caadc",
+    "upstreamPath": "48/operators/ops_gim_uemoa.png.webp",
+    "aliases": [
+      "GIM-UEMOA"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/gim-uemoa-operator.png"
+  },
+  {
+    "id": "ops_gimac",
+    "name": "Groupement Interbancaire Monétique de l’Afrique Centrale",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2176,
+    "sha256": "7f4d0486e0f9fe65decd7b2d8ba0cb7491535f3898a0bad3a63469b61ef11f4f",
+    "upstreamPath": "48/operators/ops_gimac.png.webp",
+    "aliases": [
+      "GIMAC"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/gimac-operator.png"
+  },
+  {
+    "id": "ops_gimtel_mr",
+    "name": "GIMTEL",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2616,
+    "sha256": "c0a7228301e1722b122c6be7bc623b22143a6212a0385a656ab435669402fa39",
+    "upstreamPath": "48/operators/ops_gimtel_mr.png.webp",
+    "aliases": [
+      "Groupement Interbancaire de Monétique et des Transactions Électroniques"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/gimtel-mauritania.png"
+  },
+  {
+    "id": "ops_giro_hu",
+    "name": "GIRO Zrt.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2499,
+    "sha256": "105c4c23c6e5e476134de97adc480b24b3232672d33b5e88aaeae6d842da0b9b",
+    "upstreamPath": "48/operators/ops_giro_hu.png.webp",
+    "aliases": [
+      "GIRO Ltd.",
+      "GIRO Zártkörűen Működő Részvénytársaság"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/giro-zrt-hungary.png"
+  },
+  {
     "id": "ops_google",
     "name": "Google LLC",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 29488,
-    "sha256": "50a1aa386e97309c0f833aeecbff90aea3983ab137c21a2a3b5c9ba39be38f6f",
-    "upstreamPath": "operators/ops_google.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2079,
+    "sha256": "21558bbc68957dfb6a3baeb322272b059f0198458be5c79f88a587e34c82be63",
+    "upstreamPath": "48/operators/ops_google.png.webp",
     "aliases": [
       "Google Wallet"
     ],
@@ -660,11 +1740,11 @@
     "id": "ops_goto_financial",
     "name": "GoTo Financial",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 12670,
-    "sha256": "101ee2cd0e02c67655252c2aaea6630a4e9cdc14694073cf72e2ce7a347c8def",
-    "upstreamPath": "operators/ops_goto_financial.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2315,
+    "sha256": "6d0c57f36dce84ce1aed67a05bc9bea07758918da0c15cf96544fb8254ccdc6a",
+    "upstreamPath": "48/operators/ops_goto_financial.png.webp",
     "aliases": [
       "GoTo Financial",
       "goto_financial"
@@ -676,14 +1756,32 @@
     "path": "operators/goto-financial.png"
   },
   {
+    "id": "ops_gsimt_ma",
+    "name": "Groupement pour un Système Interbancaire Marocain de Télé-compensation",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1981,
+    "sha256": "179d43a54166e4368599ff6055486ef23510ccbaafa508e11c10286de12e85b9",
+    "upstreamPath": "48/operators/ops_gsimt_ma.png.webp",
+    "aliases": [
+      "Groupement pour un Système Interbancaire de Télé-compensation"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/gsimt-morocco.png"
+  },
+  {
     "id": "ops_gxchange",
     "name": "G-Xchange, Inc.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 27588,
-    "sha256": "89b690bb41e36b7304c0a213fd69cfd8d263b7bccaf81042e22def56add0e670",
-    "upstreamPath": "operators/ops_gxchange.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2157,
+    "sha256": "3de6744ab9809256a3f5034b011e2c181f8cfc9339aec6a1aecf49b4596f2dc2",
+    "upstreamPath": "48/operators/ops_gxchange.png.webp",
     "aliases": [
       "G-Xchange, Inc.",
       "gxchange"
@@ -695,14 +1793,68 @@
     "path": "operators/gxchange.png"
   },
   {
+    "id": "ops_himbol_er",
+    "name": "Himbol Community Financial Services",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1387,
+    "sha256": "596a52ca43466a3a9b30ddf8a5cf4aad64f5f82ccba79eff132038aee207e623",
+    "upstreamPath": "48/operators/ops_himbol_er.png.webp",
+    "aliases": [
+      "Himbol Financial Services"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/himbol-community-financial-services.png"
+  },
+  {
+    "id": "ops_hkicl",
+    "name": "Hong Kong Interbank Clearing Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2560,
+    "sha256": "1ecf0ea171e33507e4096f2b3da419023583839ddd17adf341e2268a61ff04ea",
+    "upstreamPath": "48/operators/ops_hkicl.png.webp",
+    "aliases": [
+      "HKICL"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/hong-kong-interbank-clearing-limited.png"
+  },
+  {
+    "id": "ops_hps_switch_ma",
+    "name": "HPS Switch",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1691,
+    "sha256": "d0ffd26dcbb5da8acae6553982abde0b07902d689c3742e7503fd76581a7d966",
+    "upstreamPath": "48/operators/ops_hps_switch_ma.png.webp",
+    "aliases": [
+      "HPSS"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/hps-switch-morocco.png"
+  },
+  {
     "id": "ops_humo",
     "name": "HUMO",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 12051,
-    "sha256": "c9b1b622d0e715fa8ba52413aeb6db14401a4145beb4218e295144f2ea95259d",
-    "upstreamPath": "operators/ops_humo.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1653,
+    "sha256": "16932c9ce803588d190468a20370f6ab23cf1dff5b44bc8482a37d6afdf81a71",
+    "upstreamPath": "48/operators/ops_humo.png.webp",
     "aliases": [
       "National Interbank Processing Center",
       "HUMO payment system"
@@ -714,14 +1866,52 @@
     "path": "operators/humo.png"
   },
   {
+    "id": "ops_iberpay",
+    "name": "Iberpay",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1202,
+    "sha256": "0bd12ad53ed325e192262183f644723199836fd7cbcef1fe34ba90346fb8c7f9",
+    "upstreamPath": "48/operators/ops_iberpay.png.webp",
+    "aliases": [
+      "Sociedad Española de Sistemas de Pago, S.A.",
+      "Iberpay"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/iberpay.png"
+  },
+  {
+    "id": "ops_icg_gt",
+    "name": "Imágenes Computarizadas de Guatemala, S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2464,
+    "sha256": "29583b1e9139a24bcfe357044f10dc805ee89209badec7b9f764c78a56b8a00d",
+    "upstreamPath": "48/operators/ops_icg_gt.png.webp",
+    "aliases": [
+      "ICG",
+      "Imágenes Computarizadas de Guatemala"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/imagenes-computarizadas-de-guatemala.png"
+  },
+  {
     "id": "ops_in3",
     "name": "in3",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 10653,
-    "sha256": "7fb08d36662bd949c9a013a8eecdb92207ef743ad2ca602513084af6c266f6c6",
-    "upstreamPath": "operators/ops_in3.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1390,
+    "sha256": "f7c9206f009bffd4506008ee217991292911a9d0c61ee7bd199981839f4f2199",
+    "upstreamPath": "48/operators/ops_in3.png.webp",
     "aliases": [
       "Payin3"
     ],
@@ -732,14 +1922,52 @@
     "path": "operators/in3-operator.png"
   },
   {
+    "id": "ops_infolink_services_tt",
+    "name": "InfoLink Services Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2402,
+    "sha256": "ee0327ca9e556705bd2f5fdbc4be1935fedadf8d10287340c3b02cb10477a26b",
+    "upstreamPath": "48/operators/ops_infolink_services_tt.png.webp",
+    "aliases": [
+      "InfoLink Services Ltd",
+      "InfoLink"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/infolink-services-trinidad-and-tobago.png"
+  },
+  {
+    "id": "ops_ipsl_ke",
+    "name": "Integrated Payment Services Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1911,
+    "sha256": "9875123adec4fec876168fe1ed7cc47fd6ac86d8afc9555fddb10876628a4067",
+    "upstreamPath": "48/operators/ops_ipsl_ke.png.webp",
+    "aliases": [
+      "IPSL",
+      "PesaLink operator"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/integrated-payment-services-limited-kenya.png"
+  },
+  {
     "id": "ops_interac",
     "name": "Interac Corp.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 17113,
-    "sha256": "a1b768d2b94a4c6fd91b7d1457c3e398adba7a18ffd7b63ab3da20159478eb56",
-    "upstreamPath": "operators/ops_interac.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1901,
+    "sha256": "a1eddbc0aeddec11e307fa501a61c4ca07b3696c34e46328aa85c0349d52b91d",
+    "upstreamPath": "48/operators/ops_interac.png.webp",
     "aliases": [
       "interac",
       "Interac Corp."
@@ -751,33 +1979,122 @@
     "path": "operators/interac.png"
   },
   {
+    "id": "ops_interbanking_ar",
+    "name": "Interbanking S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1356,
+    "sha256": "61e16560a2013553f91b082765b2e26e261974d9d3286848333688e02baebd02",
+    "upstreamPath": "48/operators/ops_interbanking_ar.png.webp",
+    "aliases": [
+      "Interbanking Argentina"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/interbanking-argentina.png"
+  },
+  {
+    "id": "ops_qi_card_iq",
+    "name": "International Smart Card Company",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2485,
+    "sha256": "c826b2722f2f885cb30e6abb112583924cc2c59ae0546d1c2822870b55454d98",
+    "upstreamPath": "48/operators/ops_qi_card_iq.png.webp",
+    "aliases": [
+      "Qi Card Company",
+      "International Smart Card Company Iraq"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/international-smart-card-company-iraq.png"
+  },
+  {
+    "id": "ops_interswitch_uganda",
+    "name": "Interswitch Uganda Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1135,
+    "sha256": "133e0f6f8598c8b5e868f81af4cc1ed033eca9556947fb935434acf3917cbbad",
+    "upstreamPath": "48/operators/ops_interswitch_uganda.png.webp",
+    "aliases": [
+      "Interswitch (U) Ltd",
+      "Interswitch East Africa Uganda"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/interswitch-uganda-limited.png"
+  },
+  {
     "id": "ops_isracard",
     "name": "Isracard Ltd.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 18901,
-    "sha256": "25ca13e2b0dd64c5bcbc8ad4281a52bc3fc843d66c0a30098da2efa95360929e",
-    "upstreamPath": "operators/ops_isracard.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1515,
+    "sha256": "9cfdc1705b2a72cdefe7f68dceebbbf62a9b60f5ea7c338b1b41df0fcc4f803e",
+    "upstreamPath": "48/operators/ops_isracard.png.webp",
     "aliases": [
       "Isracard"
     ],
     "source": {
       "kind": "curated_brand_asset",
-      "url": null,
-      "reference": "schemes/isracard.png"
+      "url": null
     },
     "path": "operators/isracard.png"
+  },
+  {
+    "id": "ops_jalin",
+    "name": "PT Jalin Pembayaran Nusantara",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2501,
+    "sha256": "29f4efc01cb5bf1fba86bbcd39417578dda7c9c3af8a08cede8c0fd4a2a9b26b",
+    "upstreamPath": "48/operators/ops_jalin.png.webp",
+    "aliases": [
+      "Jalin"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/jalin-pembayaran-nusantara.png"
+  },
+  {
+    "id": "ops_japanese_banks_payment_clearing_network",
+    "name": "Japanese Banks' Payment Clearing Network",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2559,
+    "sha256": "b8f37d866069995e532f1f24207403f02881992ed44ff38ff39c5921cf9fa76a",
+    "upstreamPath": "48/operators/ops_japanese_banks_payment_clearing_network.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/japanese-banks-payment-clearing-network.png"
   },
   {
     "id": "ops_jazzcash",
     "name": "JazzCash",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 18415,
-    "sha256": "6363b9829441005b7e927f715b9fddd147a5f738b4d141b723cdc059c69a0c66",
-    "upstreamPath": "operators/ops_jazzcash.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1521,
+    "sha256": "934d4249226fcfa5188f95916fb8c63966fb57da46440c949ba0f23d50d2de49",
+    "upstreamPath": "48/operators/ops_jazzcash.png.webp",
     "aliases": [
       "jazzcash"
     ],
@@ -791,11 +2108,11 @@
     "id": "ops_jcb",
     "name": "JCB Co., Ltd.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 8887,
-    "sha256": "3dc3d0f93f3a46d1a8e3654da587a89d7c3d0d077c8998505839a893400c5281",
-    "upstreamPath": "operators/ops_jcb.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2086,
+    "sha256": "ab37eaf58ae27bb72dff6c9fbf366b7afc6e9d121e1c2e173baa463680bdf1a9",
+    "upstreamPath": "48/operators/ops_jcb.png.webp",
     "aliases": [
       "jcb",
       "JCB Co., Ltd."
@@ -807,14 +2124,33 @@
     "path": "operators/jcb.png"
   },
   {
+    "id": "ops_jets_limited_jm",
+    "name": "J.E.T.S. Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2496,
+    "sha256": "28cd8ac848b1dbd586471c6a791ee1466470b0ad08e6f98913e36f85cce430d3",
+    "upstreamPath": "48/operators/ops_jets_limited_jm.png.webp",
+    "aliases": [
+      "JETS Limited",
+      "Jamaica Electronic Transfers System Limited"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/jets-limited-jamaica.png"
+  },
+  {
     "id": "ops_jopacc",
     "name": "Jordan Payments and Clearing Company",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 33091,
-    "sha256": "ad2f6a863398166a94d7cf7654dd86c77e7282999202170c3a9f77ed91edaeab",
-    "upstreamPath": "operators/ops_jopacc.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1905,
+    "sha256": "81f7b4e99635a647c78acfcf6c3efd1f947d0f0ef3135ef254c7ae686580322b",
+    "upstreamPath": "48/operators/ops_jopacc.png.webp",
     "aliases": [
       "JoPACC"
     ],
@@ -828,11 +2164,11 @@
     "id": "ops_klarna",
     "name": "Klarna Group plc",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 5681,
-    "sha256": "9735ae254cad366b732e26b793ed5116bec7252a112341ac175b246e969ba7c7",
-    "upstreamPath": "operators/ops_klarna.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1579,
+    "sha256": "33f525c28dd96f610af6197df60dca0edfc07c8073af93992d228e946548fd5b",
+    "upstreamPath": "48/operators/ops_klarna.png.webp",
     "aliases": [
       "klarna",
       "Klarna Group plc"
@@ -844,34 +2180,106 @@
     "path": "operators/klarna.png"
   },
   {
+    "id": "ops_kir_pl",
+    "name": "Krajowa Izba Rozliczeniowa",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1710,
+    "sha256": "35413ec1b1f419e14e312a26dfca40a8b855f15214bf71d487d1247242105869",
+    "upstreamPath": "48/operators/ops_kir_pl.png.webp",
+    "aliases": [
+      "National Clearing House",
+      "Krajowa Izba Rozliczeniowa S.A."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/krajowa-izba-rozliczeniowa.png"
+  },
+  {
     "id": "ops_lankapay",
     "name": "LankaPay (Private) Limited",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 28232,
-    "sha256": "86d868e3d337f5a7c379f7818fd8c5f74c6d7cc01818d5e2e06380b03f23a1dc",
-    "upstreamPath": "operators/ops_lankapay.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2194,
+    "sha256": "0a10f94aa1d974bfd93fb4077ef8eb952e5ca7e4820517aa49125e04b1dfc367",
+    "upstreamPath": "48/operators/ops_lankapay.png.webp",
     "aliases": [
       "LankaClear",
       "LankaPay"
     ],
     "source": {
       "kind": "curated_brand_asset",
-      "url": null,
-      "reference": "schemes/lankapay-national-card-scheme.png"
+      "url": null
     },
     "path": "operators/lankapay.png"
+  },
+  {
+    "id": "ops_link_scheme_holdings",
+    "name": "Link Scheme Holdings Ltd",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2070,
+    "sha256": "21a7d9043728e08c8b65b69919490c91521c84085ded4e44f579838053d6c0e0",
+    "upstreamPath": "48/operators/ops_link_scheme_holdings.png.webp",
+    "aliases": [
+      "LINK Scheme Holdings Ltd"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/link-scheme-holdings.png"
+  },
+  {
+    "id": "ops_madfooatcom_jo",
+    "name": "MadfooatCom",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1441,
+    "sha256": "c2757d2147e13547a81d17b6e985d8f372d3f4a791038a96f11ce65ef72020b3",
+    "upstreamPath": "48/operators/ops_madfooatcom_jo.png.webp",
+    "aliases": [
+      "MadfooatCom for Electronic Payments"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/madfooatcom-jordan.png"
+  },
+  {
+    "id": "ops_mastercard_payment_services_dk",
+    "name": "Mastercard Payment Services Denmark A/S",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1439,
+    "sha256": "2c0564e503a9ec08f9464965fc31b2f4aadb9e03f5d43e7123cc4f2f3a1cd0b5",
+    "upstreamPath": "48/operators/ops_mastercard_payment_services_dk.png.webp",
+    "aliases": [
+      "Mastercard Payment Services Denmark"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/mastercard-payment-services-denmark.png"
   },
   {
     "id": "ops_mastercard",
     "name": "Mastercard Incorporated",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 5952,
-    "sha256": "95878ffc463db7ecd4b4201ca5c0fa784a805aa3fd46c20943c42397ef2a6a49",
-    "upstreamPath": "operators/ops_mastercard.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1171,
+    "sha256": "b7b8752c6e4ba00f56efae3c410e3871e28f05af4777865dc294f9f8dab39486",
+    "upstreamPath": "48/operators/ops_mastercard.png.webp",
     "aliases": [
       "mastercard",
       "Mastercard Incorporated"
@@ -886,11 +2294,11 @@
     "id": "ops_masterpass_technology_services",
     "name": "Masterpass Technology Services Inc.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 19949,
-    "sha256": "83e82ed8ecb1e0dc55079af0a366073863e5a702cd471dc980283ac6251d5959",
-    "upstreamPath": "operators/ops_masterpass_technology_services.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2405,
+    "sha256": "75654d31c117d62e4c36a6dbc2b9d5338c892153a8dbde8b1ae01961d9616796",
+    "upstreamPath": "48/operators/ops_masterpass_technology_services.png.webp",
     "aliases": [
       "Masterpass Technology Services Inc.",
       "Masterpass Technology Services"
@@ -905,11 +2313,11 @@
     "id": "ops_maxima_group",
     "name": "Maxima Group",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 10904,
-    "sha256": "2b32df3b4172ed76568c42263a500cb31a9ad0af7506dfba5cfcbfc423a5448e",
-    "upstreamPath": "operators/ops_maxima_group.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1509,
+    "sha256": "36e0874ca546f031625cc6fe72de8ce42f2843e22ae850bb1db4d7cc99f26a83",
+    "upstreamPath": "48/operators/ops_maxima_group.png.webp",
     "aliases": [
       "MAXIMA GRUPĖ"
     ],
@@ -923,11 +2331,11 @@
     "id": "ops_maya",
     "name": "Maya Philippines, Inc.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 17448,
-    "sha256": "17abafd9dd3e510bae8fcd2f52ad5baeffc850f8a07478f02d8042407b527cd4",
-    "upstreamPath": "operators/ops_maya.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1446,
+    "sha256": "08ee7082e0d9b3cb514457a402a639017c49c5c2c4497205323fecafd9689a74",
+    "upstreamPath": "48/operators/ops_maya.png.webp",
     "aliases": [
       "maya",
       "Maya Philippines, Inc."
@@ -942,11 +2350,11 @@
     "id": "ops_mercadolibre",
     "name": "MercadoLibre, Inc.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 35704,
-    "sha256": "10812accfe787abd9217f166f5b7a5a60645b7b92a05c9d946e6e4eb1f9f8698",
-    "upstreamPath": "operators/ops_mercadolibre.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 3465,
+    "sha256": "73022c5b38e52ae280e3668320a91feb95bfda1ce3370d7eb1fe7a9ab14670ff",
+    "upstreamPath": "48/operators/ops_mercadolibre.png.webp",
     "aliases": [
       "mercadolibre",
       "MercadoLibre, Inc."
@@ -961,11 +2369,11 @@
     "id": "ops_momo_vn",
     "name": "M_Service JSC",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 28677,
-    "sha256": "dfd41769c1a15ba104d2b98a205e6ec5eaf9bed3033905f0f2335f7dca886a2a",
-    "upstreamPath": "operators/ops_momo_vn.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2676,
+    "sha256": "2a17121d76a51e68838b354eaa9ed723e5a1eeb79bb20500970a80b2c05c6bbe",
+    "upstreamPath": "48/operators/ops_momo_vn.png.webp",
     "aliases": [
       "M_Service JSC",
       "momo_vn"
@@ -980,11 +2388,11 @@
     "id": "ops_moneta_technologies",
     "name": "Moneta Technologies S.C.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 15382,
-    "sha256": "781e0a9a9435627a8a9e7aa27023a6e6e8a454c81f7c0325d9668d6ab5f72bd0",
-    "upstreamPath": "operators/ops_moneta_technologies.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1389,
+    "sha256": "a6c40f53d63fc5a1124820b5501d8d3b0e6ecccc3127fac6cefb1de52d98540f",
+    "upstreamPath": "48/operators/ops_moneta_technologies.png.webp",
     "aliases": [
       "Amole operator",
       "Moneta Technologies"
@@ -999,11 +2407,11 @@
     "id": "ops_mtn",
     "name": "MTN Group",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 35861,
-    "sha256": "b0e3af695c9bc6cfc6d18b7f90e1ea9c1046246adbd3c99f307e2b583a8e6720",
-    "upstreamPath": "operators/ops_mtn.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2761,
+    "sha256": "afb786ae0fa18b463525df26edda2ede0a55965aa5872c13c63127080f18389c",
+    "upstreamPath": "48/operators/ops_mtn.png.webp",
     "aliases": [
       "mtn",
       "MTN Group"
@@ -1018,11 +2426,11 @@
     "id": "ops_muchbetter",
     "name": "MuchBetter",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 13865,
-    "sha256": "c954285bde5fcfabceb8a88fbaba0d5cf789c3dd863dd9c99b027cb46fe327d8",
-    "upstreamPath": "operators/ops_muchbetter.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2188,
+    "sha256": "3d33b2b8ff0c7a3dcfa3b00c131b374fd8a97c9fc1a8dd779c1b8cfb2ff7e0fd",
+    "upstreamPath": "48/operators/ops_muchbetter.png.webp",
     "aliases": [
       "MuchBetter Wallet"
     ],
@@ -1033,14 +2441,69 @@
     "path": "operators/muchbetter.png"
   },
   {
+    "id": "ops_myanmar_payment_union_mm",
+    "name": "Myanmar Payment Union",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1927,
+    "sha256": "5cef0fc1572b8a9bef1c9dc4fb97ed035a77bbfe4c5517d6f53081664c153009",
+    "upstreamPath": "48/operators/ops_myanmar_payment_union_mm.png.webp",
+    "aliases": [
+      "Myanmar Payment Union Co., Ltd."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/myanmar-payment-union-operator.png"
+  },
+  {
+    "id": "ops_nacha",
+    "name": "Nacha",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2300,
+    "sha256": "c9875e2a16fd4deda9f6d2fd74c171050f4878b3a3241a83494a660738ffd6f5",
+    "upstreamPath": "48/operators/ops_nacha.png.webp",
+    "aliases": [
+      "National Automated Clearing House Association"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/nacha.png"
+  },
+  {
+    "id": "ops_namclear_na",
+    "name": "Namclear",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1436,
+    "sha256": "436517ba84108e08fca82f9b1e1e3291b32f437dbcdf9c05f472777444130d8a",
+    "upstreamPath": "48/operators/ops_namclear_na.png.webp",
+    "aliases": [
+      "Namclear Pty Ltd",
+      "Namibian clearing house"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/namclear-namibia.png"
+  },
+  {
     "id": "ops_naranja_x",
     "name": "Naranja X",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 19375,
-    "sha256": "f59cab6519c0d8130bcea57c832ddf842e12f94f40b40d1d7249b923e004c2a2",
-    "upstreamPath": "operators/ops_naranja_x.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1654,
+    "sha256": "a7f581ad33f19f9ebef49012b986093e6ae5a5ab8bfea6cca7f44ad546aebbe1",
+    "upstreamPath": "48/operators/ops_naranja_x.png.webp",
     "aliases": [
       "Naranja Digital Compañía Financiera",
       "Tarjeta Naranja"
@@ -1052,14 +2515,145 @@
     "path": "operators/naranja-x.png"
   },
   {
+    "id": "ops_nbp_payments_pl",
+    "name": "Narodowy Bank Polski Payment Systems Operator",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4086,
+    "sha256": "895af25680982065a3ab5a4b68fa902ebf3b0a54e2f9e234728622061575cdd2",
+    "upstreamPath": "48/operators/ops_nbp_payments_pl.png.webp",
+    "aliases": [
+      "NBP payment systems operating function"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/narodowy-bank-polski-payment-systems-operator.png"
+  },
+  {
+    "id": "ops_nbu_payments_ua",
+    "name": "National Bank of Ukraine Payment Systems Operator",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1906,
+    "sha256": "31a56851ee3ad984a58bdf7d9b983343fb70b8769de1dfe02582f4f04878a98c",
+    "upstreamPath": "48/operators/ops_nbu_payments_ua.png.webp",
+    "aliases": [
+      "NBU payment organization",
+      "National Bank of Ukraine payments function"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/national-bank-ukraine-payment-systems-operator.png"
+  },
+  {
+    "id": "ops_nccc_tw",
+    "name": "National Credit Card Center of R.O.C.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3970,
+    "sha256": "bccbdcda794e769e95af0baec20e6183f74f9258cd79b962acb5ccfb3e326a58",
+    "upstreamPath": "48/operators/ops_nccc_tw.png.webp",
+    "aliases": [
+      "財團法人聯合信用卡處理中心"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/national-credit-card-center-taiwan.png"
+  },
+  {
+    "id": "ops_nspk",
+    "name": "National Payment Card System",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2114,
+    "sha256": "f1ba9b1d30928c3e0744563dcce21a350839953f9681186cc9db2d816462ee56",
+    "upstreamPath": "48/operators/ops_nspk.png.webp",
+    "aliases": [
+      "АО НСПК",
+      "NSPK",
+      "National System of Payment Cards"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/national-payment-card-system-russia.png"
+  },
+  {
+    "id": "ops_npck_kz",
+    "name": "National Payment Corporation of Kazakhstan",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2840,
+    "sha256": "0cda660a77ff61365d4b8626f185f83b9a7dbb67b3664627fe42e7849897f457",
+    "upstreamPath": "48/operators/ops_npck_kz.png.webp",
+    "aliases": [
+      "National Payment Corporation",
+      "NPCK"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/national-payment-corporation-kazakhstan.png"
+  },
+  {
+    "id": "ops_napas",
+    "name": "National Payment Corporation of Vietnam",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2413,
+    "sha256": "74e3c7f3d46646bd39cbd6d5190937db68d456559a12ecde716e7c7676138944",
+    "upstreamPath": "48/operators/ops_napas.png.webp",
+    "aliases": [
+      "NAPAS JSC",
+      "National Payment Corporation of Vietnam JSC"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/national-payment-corporation-of-vietnam.png"
+  },
+  {
+    "id": "ops_nchl_np",
+    "name": "Nepal Clearing House Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3796,
+    "sha256": "9e304dc53755341df05951b7b8ca8e0041086acd4c85da8a38f2512910789628",
+    "upstreamPath": "48/operators/ops_nchl_np.png.webp",
+    "aliases": [
+      "Nepal Clearing House Ltd."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/nepal-clearing-house.png"
+  },
+  {
     "id": "ops_nequi",
     "name": "Nequi",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 9124,
-    "sha256": "be08ddeb2af6a08cd06bf77c33240db446cd71337d6c63babb935ba1feefeffa",
-    "upstreamPath": "operators/ops_nequi.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1253,
+    "sha256": "b7f6b8a432ed60ca0526fede252b661c48027f1969169140b88019263ba76098",
+    "upstreamPath": "48/operators/ops_nequi.png.webp",
     "aliases": [
       "nequi"
     ],
@@ -1070,14 +2664,33 @@
     "path": "operators/nequi.png"
   },
   {
+    "id": "ops_nets_dk",
+    "name": "Nets A/S",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1935,
+    "sha256": "442576987ca9f0f8fada25ffff152fe1d252a3ace8cd819b1ad01040a3009bbd",
+    "upstreamPath": "48/operators/ops_nets_dk.png.webp",
+    "aliases": [
+      "Nets Denmark",
+      "Nets A/S Denmark"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/nets-as-denmark.png"
+  },
+  {
     "id": "ops_nets_singapore",
     "name": "Network for Electronic Transfers (Singapore) Pte Ltd.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 34210,
-    "sha256": "cca1499f010f3a6dca63b44ee608adb06b70637f4c4257360870341256c53813",
-    "upstreamPath": "operators/ops_nets_singapore.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1699,
+    "sha256": "ce5b06df54d439ed84ba302a3c4e6da51b07ed7939a9dbd4cbf83d0a1e42a2b0",
+    "upstreamPath": "48/operators/ops_nets_singapore.png.webp",
     "aliases": [
       "NETS Singapore",
       "NETS"
@@ -1089,14 +2702,51 @@
     "path": "operators/nets-singapore.png"
   },
   {
+    "id": "ops_newpay_ar",
+    "name": "Newpay S.A.U.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2282,
+    "sha256": "6b4aabda01b7e19a7ebfec74b7140f1d0dde010305416187390ed778afd714b8",
+    "upstreamPath": "48/operators/ops_newpay_ar.png.webp",
+    "aliases": [
+      "Newpay Argentina"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/newpay-argentina.png"
+  },
+  {
+    "id": "ops_nkfo_erip_by",
+    "name": "NKFO ERIP",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2316,
+    "sha256": "7afce105e186485dc4c725302699ddfd6c7ef9ea654e1bf4b03b9eafdbf534e0",
+    "upstreamPath": "48/operators/ops_nkfo_erip_by.png.webp",
+    "aliases": [
+      "ОАО «НКФО «ЕРИП»",
+      "Единое расчетное и информационное пространство"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/nkfo-erip-belarus.png"
+  },
+  {
     "id": "ops_npci",
     "name": "National Payments Corporation of India",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 11983,
-    "sha256": "77f3205171a441bdd9b2f5d23f0e87ffd40e7a0ffa56740f50aa9ae5f6274199",
-    "upstreamPath": "operators/ops_npci.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1792,
+    "sha256": "a2d619b8e16b005bf4395eca9df59c5f0dd5d81bd82522d7b95dcf9b1d5f5497",
+    "upstreamPath": "48/operators/ops_npci.png.webp",
     "aliases": [
       "National Payments Corporation of India",
       "npci"
@@ -1111,11 +2761,11 @@
     "id": "ops_okto",
     "name": "OKTO",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 25515,
-    "sha256": "1679f4791f6004389f06fac1932e101b05ad9e32af76cccd1219223767c775cd",
-    "upstreamPath": "operators/ops_okto.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2754,
+    "sha256": "8a2f3928312955c4b525bc3e5bf9f3cb32334652f8f68286da34f0bd4b8e3a7f",
+    "upstreamPath": "48/operators/ops_okto.png.webp",
     "aliases": [
       "OKTO Payments"
     ],
@@ -1129,11 +2779,11 @@
     "id": "ops_opay",
     "name": "OPay",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 20075,
-    "sha256": "b7835ae0b449279e7310254f02cf847335f362ba6ebbc7d3ffe8dde1b6963320",
-    "upstreamPath": "operators/ops_opay.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1852,
+    "sha256": "b33ba0ba2460a79b202592767c63fdd4d238daca0b300bce6347117846354d96",
+    "upstreamPath": "48/operators/ops_opay.png.webp",
     "aliases": [
       "opay"
     ],
@@ -1147,11 +2797,11 @@
     "id": "ops_orange_mea",
     "name": "Orange Middle East and Africa",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 24403,
-    "sha256": "033aadc7fa4eaf869ef796315605a122029932a5163e553e9497c1c28c615c04",
-    "upstreamPath": "operators/ops_orange_mea.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1944,
+    "sha256": "7b327fd17e37260666e54517a3163b981d40423203cd7c49469d95063782e8ae",
+    "upstreamPath": "48/operators/ops_orange_mea.png.webp",
     "aliases": [
       "Orange Middle East and Africa",
       "orange_mea"
@@ -1166,30 +2816,47 @@
     "id": "ops_papara",
     "name": "Papara Elektronik Para A.Ş.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 4158,
-    "sha256": "76d732fd804fceb21da5c9531dd8c413e805b23a615e090cbaa6295e16979050",
-    "upstreamPath": "operators/ops_papara.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1105,
+    "sha256": "08dc48446b91d251becc4a214b4b03ee51bd6551d6b57509dc41bbf7b67eb842",
+    "upstreamPath": "48/operators/ops_papara.png.webp",
     "aliases": [
       "Papara"
     ],
     "source": {
       "kind": "curated_brand_asset",
-      "url": null,
-      "reference": "payment-methods/papara.png"
+      "url": null
     },
     "path": "operators/papara.png"
+  },
+  {
+    "id": "ops_pay_uk",
+    "name": "Pay.UK",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3945,
+    "sha256": "651b0223fa3a7afca63d8b79a7a1926aa77a323466509d3f8affcef3a02f73ad",
+    "upstreamPath": "48/operators/ops_pay_uk.png.webp",
+    "aliases": [
+      "Pay.UK Limited"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/pay-uk.png"
   },
   {
     "id": "ops_pay4fun",
     "name": "Pay4Fun Instituição de Pagamento S.A.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 36518,
-    "sha256": "56e11e8e119e74e29d3de155f60b7ca932c0a838416d56bfea5970e74ae6c2bc",
-    "upstreamPath": "operators/ops_pay4fun.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2281,
+    "sha256": "414623af7450cf9efb9219bbef8375e5c9f84bcf90fa290e6831e5aef73975cb",
+    "upstreamPath": "48/operators/ops_pay4fun.png.webp",
     "aliases": [
       "Pay4Fun",
       "P4F"
@@ -1201,14 +2868,87 @@
     "path": "operators/pay4fun.png"
   },
   {
+    "id": "ops_payfintech_uz",
+    "name": "PAYFINTECH JSC",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2144,
+    "sha256": "5b952e0db7a70ec2087342f3f63841d967539dd943d7d33021a342adadbe24c5",
+    "upstreamPath": "48/operators/ops_payfintech_uz.png.webp",
+    "aliases": [
+      "PAYFINTECH AJ"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/payfintech-uzbekistan.png"
+  },
+  {
+    "id": "ops_payinc",
+    "name": "PayInc",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2264,
+    "sha256": "14ec784d0a06e78bd2f1ff84bd82f156ca6be3f882204af8cf14eeb8a0773b7a",
+    "upstreamPath": "48/operators/ops_payinc.png.webp",
+    "aliases": [
+      "BankservAfrica",
+      "South African Bankers Services Company"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/payinc.png"
+  },
+  {
+    "id": "ops_pan_na",
+    "name": "Payments Association of Namibia",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1828,
+    "sha256": "8e2f76783eb49a71d71f098488bb0a77f022c39a901dd798766f71d22ec4a7ed",
+    "upstreamPath": "48/operators/ops_pan_na.png.webp",
+    "aliases": [
+      "PAN Namibia"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/payments-association-of-namibia.png"
+  },
+  {
+    "id": "ops_payments_canada",
+    "name": "Payments Canada",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2551,
+    "sha256": "e74cf20abc353c7e4222d30c265c10d75816a1553df8c68a5738f21efad30d59",
+    "upstreamPath": "48/operators/ops_payments_canada.png.webp",
+    "aliases": [
+      "Canadian Payments Association"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/payments-canada.png"
+  },
+  {
     "id": "ops_paynet_malaysia",
     "name": "Payments Network Malaysia Sdn Bhd",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 62535,
-    "sha256": "d57442b84e2c9d74b54e7fca693e6479822fa8fa5637b27dfabeaa94f3ee65e2",
-    "upstreamPath": "operators/ops_paynet_malaysia.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 3181,
+    "sha256": "796a81fe5fbc8c4ec4bd2f498fced6800927d03334413c87d2ccc9f4cb8e8ab7",
+    "upstreamPath": "48/operators/ops_paynet_malaysia.png.webp",
     "aliases": [
       "PayNet Malaysia",
       "PayNet"
@@ -1223,11 +2963,11 @@
     "id": "ops_paypal",
     "name": "PayPal Holdings, Inc.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 14024,
-    "sha256": "377a37d07b9931f9f74e9fd9fcaecf32394f499c6ec165b2fba01c025019fff2",
-    "upstreamPath": "operators/ops_paypal.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1454,
+    "sha256": "c95da3a49a83095ecb9af446dc4fa786cec50246c661a80d8cb655d384f078d5",
+    "upstreamPath": "48/operators/ops_paypal.png.webp",
     "aliases": [
       "paypal",
       "PayPal Holdings, Inc."
@@ -1242,11 +2982,11 @@
     "id": "ops_paypay",
     "name": "PayPay Corporation",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 24015,
-    "sha256": "84bd06d1ddc9120c1280d9b3e10dbd5ed97d88c7780fb3f1485787c362c2da9b",
-    "upstreamPath": "operators/ops_paypay.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1993,
+    "sha256": "931c40b2f9ea54a1f7198cb3ca377e121e36c1387fe60193cd0bb148fa4b6a66",
+    "upstreamPath": "48/operators/ops_paypay.png.webp",
     "aliases": [
       "paypay",
       "PayPay Corporation"
@@ -1261,11 +3001,11 @@
     "id": "ops_paytm",
     "name": "One 97 Communications Limited",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 27847,
-    "sha256": "c2fb074104224d8b8dc4460a3bd13018b263e1e4afa58df2ed01ea4187df2681",
-    "upstreamPath": "operators/ops_paytm.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2487,
+    "sha256": "d02ed7efd33c64438ec69df72dd485b2f885cd2a092acf07e8a2110ec8ba4ec8",
+    "upstreamPath": "48/operators/ops_paytm.png.webp",
     "aliases": [
       "One 97 Communications Limited",
       "paytm"
@@ -1277,14 +3017,71 @@
     "path": "operators/paytm.png"
   },
   {
+    "id": "ops_pegasus_ug",
+    "name": "Pegasus Technologies Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1708,
+    "sha256": "1b3466a898bb69a91d5078fbc35ff91d826f1bdd114e51d0b24ccea7389bec0f",
+    "upstreamPath": "48/operators/ops_pegasus_ug.png.webp",
+    "aliases": [
+      "Pegasus Technologies",
+      "Pegasus Uganda"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/pegasus-technologies-uganda.png"
+  },
+  {
+    "id": "ops_pten",
+    "name": "PT Penyelesaian Transaksi Elektronik Nasional",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1196,
+    "sha256": "f54ef5bdbd4473825113a8f54f5d2ed46f330ea2b16e3e9aaee7d52d315705d9",
+    "upstreamPath": "48/operators/ops_pten.png.webp",
+    "aliases": [
+      "PTEN"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/penyelesaian-transaksi-elektronik-nasional.png"
+  },
+  {
+    "id": "ops_ppmi",
+    "name": "Philippine Payments Management, Inc.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1903,
+    "sha256": "3e68fdf8938fcf027bf7487fbb3180c521f3153644294ff1202ec7a07bc7af02",
+    "upstreamPath": "48/operators/ops_ppmi.png.webp",
+    "aliases": [
+      "PhilPayments Management, Inc.",
+      "PhilPayments",
+      "PPMI"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/philippine-payments-management-inc.png"
+  },
+  {
     "id": "ops_phonepe",
     "name": "PhonePe Limited",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 12638,
-    "sha256": "781623c865334cee2f95c743cf9d784e8970594f90f4ba465c27dd8743300fa4",
-    "upstreamPath": "operators/ops_phonepe.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1416,
+    "sha256": "027476508cce45971c7ea2370c7480a912e8288acc44fd522ca0efee6037138a",
+    "upstreamPath": "48/operators/ops_phonepe.png.webp",
     "aliases": [
       "phonepe",
       "PhonePe Limited"
@@ -1299,11 +3096,11 @@
     "id": "ops_picpay",
     "name": "PicPay",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 23936,
-    "sha256": "d2aedaa13073880ab9067b008c68c3029a2aa505a3c611224df75dbcd70feae1",
-    "upstreamPath": "operators/ops_picpay.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2501,
+    "sha256": "e87a7810e97cf7f3c270fccc51b955d2576449915fed4efd80341cd0fb9ee37c",
+    "upstreamPath": "48/operators/ops_picpay.png.webp",
     "aliases": [
       "picpay"
     ],
@@ -1314,14 +3111,33 @@
     "path": "operators/picpay.png"
   },
   {
+    "id": "ops_prosa",
+    "name": "Promoción y Operación S.A. de C.V.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3718,
+    "sha256": "c4a42143d9ab2c4ffa3aa56cfa9d54641eaa9d39a9e19a8e100a3126dd1a917d",
+    "upstreamPath": "48/operators/ops_prosa.png.webp",
+    "aliases": [
+      "Prosa México",
+      "Prosa"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/prosa-mexico.png"
+  },
+  {
     "id": "ops_psi_pay",
     "name": "PSI-Pay Ltd.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 32524,
-    "sha256": "f187427650bed65e121b6f61775f7f3c94f880ad3a43d23c4c0172a1e356af45",
-    "upstreamPath": "operators/ops_psi_pay.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2402,
+    "sha256": "2869dfadfc4ec860726ba09028a526d3d3c3e04b36f08669b183ca17a35bd00e",
+    "upstreamPath": "48/operators/ops_psi_pay.png.webp",
     "aliases": [
       "Payz",
       "ecoPayz operator"
@@ -1336,11 +3152,11 @@
     "id": "ops_psp",
     "name": "Polski Standard Płatności",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 25862,
-    "sha256": "f7cad282188b7ca6b1b31f6605d8e39bb88646661cbfc4e73e1cdf5bf5674786",
-    "upstreamPath": "operators/ops_psp.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2636,
+    "sha256": "9f41475f6b045a881e3211315d283b20290ebeac4600694f192c1c88cc01c321",
+    "upstreamPath": "48/operators/ops_psp.png.webp",
     "aliases": [
       "Polski Standard Płatności",
       "psp"
@@ -1355,30 +3171,120 @@
     "id": "ops_pyypl",
     "name": "Pyypl",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 16009,
-    "sha256": "5244436befc398b597e354b6fa49a56253b98e3ca83496a9c9df148648e7fa04",
-    "upstreamPath": "operators/ops_pyypl.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2221,
+    "sha256": "f56dd555d41960c4e9f7041d02baa14564d5176bef4fffeb1acb867ddaf265b1",
+    "upstreamPath": "48/operators/ops_pyypl.png.webp",
     "aliases": [
       "Pyypl Ltd."
     ],
     "source": {
       "kind": "curated_brand_asset",
-      "url": null,
-      "reference": "payment-methods/pyypl.png"
+      "url": null
     },
     "path": "operators/pyypl.png"
+  },
+  {
+    "id": "ops_qpay_mn",
+    "name": "QPay LLC",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4034,
+    "sha256": "622eeccf32b13d5a1831da6d4ca540daa0b2bf811059732cc786f1fc215274dc",
+    "upstreamPath": "48/operators/ops_qpay_mn.png.webp",
+    "aliases": [
+      "QPay Mongolia"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/qpay-llc-mongolia.png"
+  },
+  {
+    "id": "ops_red_link_ar",
+    "name": "Red Link S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1980,
+    "sha256": "30c7d967b4380c702b9ff7faa531532a0795c9bde29236c0d72c9f14f19f5e4b",
+    "upstreamPath": "48/operators/ops_red_link_ar.png.webp",
+    "aliases": [
+      "Red Link Argentina"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/red-link-argentina.png"
+  },
+  {
+    "id": "ops_redsys_es",
+    "name": "Redsys",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1914,
+    "sha256": "4671807912227d847adc98e4043ddfc875ff5fdb59bb606847cd909b1f6fbc8b",
+    "upstreamPath": "48/operators/ops_redsys_es.png.webp",
+    "aliases": [
+      "Redsys Servicios de Procesamiento, S.L.",
+      "Redsys"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/redsys-spain.png"
+  },
+  {
+    "id": "ops_retail_payments_jamaica_limited",
+    "name": "Retail Payments Jamaica Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3934,
+    "sha256": "9f8714fd8ef563cc62696e6df2c84f8796f1af7380ec101f407cfa0cca4e38c9",
+    "upstreamPath": "48/operators/ops_retail_payments_jamaica_limited.png.webp",
+    "aliases": [
+      "RPJL"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/retail-payments-jamaica-limited.png"
+  },
+  {
+    "id": "ops_rintis",
+    "name": "PT Rintis Sejahtera",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4362,
+    "sha256": "a092147acbbc113e032f14eedb835248e18508b4ef390f023b74c731142d02ab",
+    "upstreamPath": "48/operators/ops_rintis.png.webp",
+    "aliases": [
+      "Rintis Sejahtera"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/rintis-sejahtera.png"
   },
   {
     "id": "ops_riverty",
     "name": "Riverty Group GmbH",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 10799,
-    "sha256": "e158dd14b3f78d17612c9ffe915f60edabcf90d04f47f95314ee339bee26df58",
-    "upstreamPath": "operators/ops_riverty.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 818,
+    "sha256": "dc56dc9fbed4a5819cdc4f6b7226ef1e37b3873fcab41d0b1c000828a8348269",
+    "upstreamPath": "48/operators/ops_riverty.png.webp",
     "aliases": [
       "Riverty"
     ],
@@ -1389,14 +3295,32 @@
     "path": "operators/riverty-operator.png"
   },
   {
+    "id": "ops_rswitch_rw",
+    "name": "RSwitch",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2597,
+    "sha256": "d1581d257b2b3efa2d48b92d0ca237bd6bb8e755726d6cfc95d5cedfe98f4655",
+    "upstreamPath": "48/operators/ops_rswitch_rw.png.webp",
+    "aliases": [
+      "RSwitch Ltd"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/rswitch-rwanda.png"
+  },
+  {
     "id": "ops_safaricom",
     "name": "Safaricom PLC",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 22478,
-    "sha256": "a383f3a92e29b70cb9a0b1e014132f719852bf37a3e5ece40b15b262791cc83e",
-    "upstreamPath": "operators/ops_safaricom.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1984,
+    "sha256": "01d8f211a6564407e3f2d7747ab6fc21db2b5943e62ef3b75e36077fc69df03e",
+    "upstreamPath": "48/operators/ops_safaricom.png.webp",
     "aliases": [
       "safaricom",
       "Safaricom PLC"
@@ -1408,14 +3332,34 @@
     "path": "operators/safaricom.png"
   },
   {
+    "id": "ops_sama_payments_sa",
+    "name": "Saudi Central Bank (SAMA)",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4525,
+    "sha256": "a29cb493898ac1b72664235c75f74bdedbec75bb61b6345b25e6849eb2d4f31a",
+    "upstreamPath": "48/operators/ops_sama_payments_sa.png.webp",
+    "aliases": [
+      "Saudi Central Bank",
+      "Saudi Arabian Monetary Authority",
+      "SAMA"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/saudi-central-bank-payment-system-operator.png"
+  },
+  {
     "id": "ops_saudi_payments",
     "name": "Saudi Payments",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 6677,
-    "sha256": "827ff79821cb2aea2d2341e5d347ecd5f8f30fdaae5d461325200ba399bbde53",
-    "upstreamPath": "operators/ops_saudi_payments.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1556,
+    "sha256": "bdc3857085a66fc08fa140d6bfbc580c8ad47146c7fb9bec9a31528931c93ecf",
+    "upstreamPath": "48/operators/ops_saudi_payments.png.webp",
     "aliases": [
       "Saudi Payments",
       "saudi_payments"
@@ -1427,14 +3371,71 @@
     "path": "operators/saudi-payments.png"
   },
   {
+    "id": "ops_redsa_cu",
+    "name": "Servicios de Pago RED S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2267,
+    "sha256": "0810940c3c1ee2c28d0c781b534dcf133ed20e4973115b673a11f58afa3ccb5f",
+    "upstreamPath": "48/operators/ops_redsa_cu.png.webp",
+    "aliases": [
+      "Servicios de Pago Red",
+      "RED S.A."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/servicios-de-pago-red-cuba.png"
+  },
+  {
+    "id": "ops_shared_electronic_banking_services_kw",
+    "name": "The Shared Electronic Banking Services Company",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2854,
+    "sha256": "8312d37392485636d9a0533e78dbbe7cf975434a466c6d0dce7554d6a5280d69",
+    "upstreamPath": "48/operators/ops_shared_electronic_banking_services_kw.png.webp",
+    "aliases": [
+      "The Shared Electronic Banking Services Company K.S.C.C.",
+      "KNET Company"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/shared-electronic-banking-services-knet.png"
+  },
+  {
+    "id": "ops_shva_il",
+    "name": "Shva Ltd.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3001,
+    "sha256": "812bff5b4dc9b7843aa38f5505374bfb863f47aa5327a0ae204c9086c463436a",
+    "upstreamPath": "48/operators/ops_shva_il.png.webp",
+    "aliases": [
+      "Automated Bank Services Ltd.",
+      "Shva"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/shva-ltd-israel.png"
+  },
+  {
     "id": "ops_sibs",
     "name": "SIBS",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 10456,
-    "sha256": "9ae8363cc31334ae0fcb46334f8e2ecb144e83bb9a68bba283b127708099c492",
-    "upstreamPath": "operators/ops_sibs.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1530,
+    "sha256": "d13718f1cf3945a8020ce544f43c585e4a8a40bcaf84a300bb9df26e2ad3182c",
+    "upstreamPath": "48/operators/ops_sibs.png.webp",
     "aliases": [
       "sibs"
     ],
@@ -1448,11 +3449,11 @@
     "id": "ops_siirto_brand",
     "name": "Siirto Brand Oy",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 17262,
-    "sha256": "79d7ef319ff20a99de0a3300e59b3e0b7b75323ff0c14ba82271e932ea4151cb",
-    "upstreamPath": "operators/ops_siirto_brand.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1658,
+    "sha256": "a7f7862d0a9f89424639117896cead1260799707a0fce2e43784a03eceed7c7e",
+    "upstreamPath": "48/operators/ops_siirto_brand.png.webp",
     "aliases": [
       "Siirto"
     ],
@@ -1463,14 +3464,88 @@
     "path": "operators/siirto-brand.png"
   },
   {
+    "id": "ops_sistarbanc_uy",
+    "name": "Sistarbanc S.R.L.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1740,
+    "sha256": "9cc84cca6fd3b5312e41238434c2c939f5f4d2e8eca06d849e10d2f00c2a5863",
+    "upstreamPath": "48/operators/ops_sistarbanc_uy.png.webp",
+    "aliases": [
+      "Sistarbanc Uruguay"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/sistarbanc-uruguay.png"
+  },
+  {
+    "id": "ops_simo_mz",
+    "name": "Sociedade Interbancária de Moçambique",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 4689,
+    "sha256": "589845cc736d86a190ffb9503ad0196ca624e5f184a47300ac4441763a841597",
+    "upstreamPath": "48/operators/ops_simo_mz.png.webp",
+    "aliases": [
+      "Mozambique Interbank Company",
+      "Sociedade Interbancária de Moçambique S.A."
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/sociedade-interbancaria-de-mocambique.png"
+  },
+  {
+    "id": "ops_sps_so",
+    "name": "Somalia Payment Switch",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3498,
+    "sha256": "c4e48144e9273b1a7834aa961c4c09a32469ddb3bd0b495f8d7c502374f4b084",
+    "upstreamPath": "48/operators/ops_sps_so.png.webp",
+    "aliases": [
+      "Somali Payment Switch"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/somalia-payment-switch.png"
+  },
+  {
+    "id": "ops_stmp_es",
+    "name": "Sistema de Tarjetas y Medios de Pago, S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1620,
+    "sha256": "683c01401ade33d44f88a04c9a86543c1d48ae79d297b65e817fb7b03ad97214",
+    "upstreamPath": "48/operators/ops_stmp_es.png.webp",
+    "aliases": [
+      "STMP S.A.",
+      "Sistema de Tarjetas y Medios de Pago"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/stmp-sa-spain.png"
+  },
+  {
     "id": "ops_telered",
     "name": "Telered S.A.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 36213,
-    "sha256": "13f9605789629df72161ef42ade52b18efa632c058fe6356d80eeafc4f8a6743",
-    "upstreamPath": "operators/ops_telered.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2211,
+    "sha256": "c196c870b2c1d69c0ca86df80edd5f71c10bf0d6d0445bf5e3c566080916eb7c",
+    "upstreamPath": "48/operators/ops_telered.png.webp",
     "aliases": [
       "Telered",
       "Sistema Clave operator"
@@ -1485,11 +3560,11 @@
     "id": "ops_tencent",
     "name": "Tencent",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 11992,
-    "sha256": "961c9ea6c85e2b1e1ee7f2150eadcd037ee17a2a3f49d9e775c4dc7d7397e371",
-    "upstreamPath": "operators/ops_tencent.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1372,
+    "sha256": "549e3f10dac50654a9ee641ac34ddf6895f1cb5141bed52aa2c9e6813e196f98",
+    "upstreamPath": "48/operators/ops_tencent.png.webp",
     "aliases": [
       "tencent"
     ],
@@ -1500,14 +3575,30 @@
     "path": "operators/tencent.png"
   },
   {
+    "id": "ops_the_clearing_house",
+    "name": "The Clearing House",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3371,
+    "sha256": "2e867a2c86872eef90949340cda78f7acfa1154fcd3bc7b736c61edb06809c32",
+    "upstreamPath": "48/operators/ops_the_clearing_house.png.webp",
+    "aliases": [],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/the-clearing-house.png"
+  },
+  {
     "id": "ops_tngdigital",
     "name": "TNG Digital Sdn. Bhd.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 26171,
-    "sha256": "c04122804022880837b808283d089e12e92616804b815ec97b1b492ef8f4a7fc",
-    "upstreamPath": "operators/ops_tngdigital.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2915,
+    "sha256": "150ba800f0a1a7e84c5be69dbc6f0e6ea5aebdebddda17727b86f05d445cd259",
+    "upstreamPath": "48/operators/ops_tngdigital.png.webp",
     "aliases": [
       "TNG Digital Sdn. Bhd.",
       "tngdigital"
@@ -1519,14 +3610,32 @@
     "path": "operators/tngdigital.png"
   },
   {
+    "id": "ops_transbank_cl",
+    "name": "Transbank S.A.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 1619,
+    "sha256": "e38c5edba946209d7bda0dba699bca2a1c06d85ea453703edf399efaac144642",
+    "upstreamPath": "48/operators/ops_transbank_cl.png.webp",
+    "aliases": [
+      "Transbank Chile"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/transbank-chile.png"
+  },
+  {
     "id": "ops_transfond",
     "name": "TRANSFOND S.A.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 30387,
-    "sha256": "e61d6e9d6ab4a4a60f7de5978681790a29f664aa71c9f1305433c27c06db17b4",
-    "upstreamPath": "operators/ops_transfond.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1677,
+    "sha256": "628e3d16719a1eca601c3623ba49405036ebdf899a547e123913300f641a5d76",
+    "upstreamPath": "48/operators/ops_transfond.png.webp",
     "aliases": [
       "TRANSFOND"
     ],
@@ -1540,11 +3649,11 @@
     "id": "ops_twint",
     "name": "TWINT AG",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 30230,
-    "sha256": "71e01eb8071c41b6cf2cee2049230156b33bcbc4e2177769aca3227b133edb4e",
-    "upstreamPath": "operators/ops_twint.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2025,
+    "sha256": "cff37da33a7b0efe474082017681d4e49292da698c956da94f57e940d523844a",
+    "upstreamPath": "48/operators/ops_twint.png.webp",
     "aliases": [
       "twint",
       "TWINT AG"
@@ -1556,14 +3665,51 @@
     "path": "operators/twint.png"
   },
   {
+    "id": "ops_umojaswitch",
+    "name": "UmojaSwitch Co. Ltd.",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2043,
+    "sha256": "867a2de434c1670e239e0deb8015e0df0350b4de482a635ad3d2aba25518094f",
+    "upstreamPath": "48/operators/ops_umojaswitch.png.webp",
+    "aliases": [
+      "UmojaSwitch Company Limited"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/umojaswitch-company.png"
+  },
+  {
+    "id": "ops_unmoney_ye",
+    "name": "Unified Network for Money",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3057,
+    "sha256": "d3deab7d93c96f0f340f67bc59baeed275ad564a7dd19757de0d87d2d965d17f",
+    "upstreamPath": "48/operators/ops_unmoney_ye.png.webp",
+    "aliases": [
+      "Unified Money Company",
+      "Unified Network for Money Company"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/unified-network-for-money-yemen.png"
+  },
+  {
     "id": "ops_unionpay",
     "name": "China UnionPay",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 22327,
-    "sha256": "4740c8461e3afde6c5ad856959fb97b8692a8b0061990af26133e360c351c761",
-    "upstreamPath": "operators/ops_unionpay.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2385,
+    "sha256": "f59b4faf92beac2b4e7319cc14ab5fd34a97f87815762dc3e6df87c59f2d9104",
+    "upstreamPath": "48/operators/ops_unionpay.png.webp",
     "aliases": [
       "China UnionPay",
       "unionpay"
@@ -1575,14 +3721,33 @@
     "path": "operators/unionpay.png"
   },
   {
+    "id": "ops_ufc_ge",
+    "name": "United Financial Corporation JSC",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2811,
+    "sha256": "1878b8561e43fecdb9dd3af9968704fe50db59f61902f0ac58a4ab87c25c6c48",
+    "upstreamPath": "48/operators/ops_ufc_ge.png.webp",
+    "aliases": [
+      "United Finance Corporation",
+      "United Financial Corporation"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/united-financial-corporation-jsc-georgia.png"
+  },
+  {
     "id": "ops_uzcard_crpc",
     "name": "Common Republican Processing Centre JSC",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 26129,
-    "sha256": "688e9a1fa219e8a158bba9f782ec76da2913b99d9df3eda74fa793230ae181eb",
-    "upstreamPath": "operators/ops_uzcard_crpc.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1870,
+    "sha256": "bc3b2af7583e12a38e91a4607787a61ee77664aff10f30880aeccef76f84f874",
+    "upstreamPath": "48/operators/ops_uzcard_crpc.png.webp",
     "aliases": [
       "UZCARD operator",
       "CRPC"
@@ -1597,11 +3762,11 @@
     "id": "ops_vipps_mobilepay",
     "name": "Vipps MobilePay AS",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 11525,
-    "sha256": "297522297c95515da1b0c16e60645ded88e5fe1d0d182e1d74197fd961d53215",
-    "upstreamPath": "operators/ops_vipps_mobilepay.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1179,
+    "sha256": "cba6369d0f1463c5aa58b341b4f6c2563448870915ed0201d0556b8883362526",
+    "upstreamPath": "48/operators/ops_vipps_mobilepay.png.webp",
     "aliases": [
       "Vipps MobilePay AS",
       "vipps_mobilepay"
@@ -1616,11 +3781,11 @@
     "id": "ops_visa",
     "name": "Visa Inc.",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 7052,
-    "sha256": "166a332d35f6dc3937372a65fbd148080b3b1b0e98583d105a89325909042345",
-    "upstreamPath": "operators/ops_visa.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 1665,
+    "sha256": "544d594cb8d0f5b2a1a3b01d35144ce7157ff196d5d68b11d9be07ba5142db1b",
+    "upstreamPath": "48/operators/ops_visa.png.webp",
     "aliases": [
       "visa",
       "Visa Inc."
@@ -1635,11 +3800,11 @@
     "id": "ops_wechat_pay_hk",
     "name": "WeChat Pay Hong Kong Limited",
     "category": "operators",
-    "width": 256,
-    "height": 256,
-    "bytes": 37779,
-    "sha256": "8069faea9a05dbd6808a51c509877a21763f165d42dcfbaa3d83efdb362a6465",
-    "upstreamPath": "operators/ops_wechat_pay_hk.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 2237,
+    "sha256": "bd10a7dd4daac62f2e17d777fe1f92857e3cae73df32350e49a6688e6c12b161",
+    "upstreamPath": "48/operators/ops_wechat_pay_hk.png.webp",
     "aliases": [
       "WeChat Pay HK"
     ],
@@ -1648,5 +3813,60 @@
       "url": null
     },
     "path": "operators/wechat-pay-hk.png"
+  },
+  {
+    "id": "ops_ypcc_ye",
+    "name": "Yemeni Payments and Clearing Company",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 3983,
+    "sha256": "8700c5d59032d3e7187d2f431b8aa00e6d6bda6d582b58b9b3fb9901f9a06157",
+    "upstreamPath": "48/operators/ops_ypcc_ye.png.webp",
+    "aliases": [
+      "Yemen Payments and Clearing Company"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/yemeni-payments-clearing-company.png"
+  },
+  {
+    "id": "ops_zechl_zm",
+    "name": "Zambia Electronic Clearing House Limited",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2882,
+    "sha256": "6a1b1ea469534273c7c2a3fee84b44f65935a872a98c524483717b9c54e70b18",
+    "upstreamPath": "48/operators/ops_zechl_zm.png.webp",
+    "aliases": [
+      "Zambia Electronic Clearing House",
+      "ZECH"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/zambia-electronic-clearing-house-limited.png"
+  },
+  {
+    "id": "ops_zimswitch_zw",
+    "name": "Zimswitch Technologies",
+    "category": "operators",
+    "width": 48,
+    "height": 48,
+    "bytes": 2621,
+    "sha256": "e6996d412e191626736713521db0521650a054476ce39f8859a61e2198435ccd",
+    "upstreamPath": "48/operators/ops_zimswitch_zw.png.webp",
+    "aliases": [
+      "Zimswitch"
+    ],
+    "source": {
+      "kind": "provided",
+      "url": null
+    },
+    "path": "operators/zimswitch-technologies-zimbabwe.png"
   }
 ]

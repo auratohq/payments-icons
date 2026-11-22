@@ -27,16 +27,19 @@ async function visibleImagesReady(page) {
     await new Promise(resolve => setTimeout(resolve, 200));
   }
   assert(ready, 'Local gallery server did not start');
-  browser = await chromium.launch({ headless: true });
+  browser = await chromium.launch({ headless: true, ...(process.env.CHROMIUM_EXECUTABLE_PATH ? { executablePath: process.env.CHROMIUM_EXECUTABLE_PATH } : {}) });
   const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, permissions: ['clipboard-read', 'clipboard-write'] });
   const page = await context.newPage();
+  const index = JSON.parse(await readFile(path.join(root, 'catalog.json')));
+  const cards = JSON.parse(await readFile(path.join(root, 'catalog/cards.json')));
+  const formatted = value => new Intl.NumberFormat('en-US').format(value);
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto(origin);
   await page.waitForSelector('.tile');
   assert.equal(await page.locator('.tile').count(), 60);
-  assert.match(await page.locator('#stats').innerText(), /2,073/);
-  assert.match(await page.locator('#stats').innerText(), /6,016/);
+  assert((await page.locator('#stats').innerText()).includes(formatted(index.primaryIconCount)));
+  assert((await page.locator('#stats').innerText()).includes(formatted(index.cardCount)));
   await visibleImagesReady(page);
   await page.screenshot({ path: path.join(output, 'desktop.png') });
   await page.locator('#load-more').click();
@@ -45,7 +48,7 @@ async function visibleImagesReady(page) {
   assert.equal(await page.locator('.tile').count(), 1);
   await page.locator('.tile').click();
   assert.equal(await page.locator('#detail-path').inputValue(), 'payment-methods/in3.png');
-  await page.waitForFunction(() => document.getElementById('detail-image').naturalWidth === 256);
+  await page.waitForFunction(() => document.getElementById('detail-image').naturalWidth === 48);
   await page.locator('#copy-path').click();
   assert.equal(await page.evaluate(() => navigator.clipboard.readText()), 'payment-methods/in3.png');
   const downloadEvent = page.waitForEvent('download');
@@ -60,11 +63,11 @@ async function visibleImagesReady(page) {
   await page.locator('#search').fill('');
   await page.locator('[data-category="cards"]').click();
   await page.locator('#source-filter').selectOption('generated');
-  assert.match(await page.locator('#result-count').innerText(), /^5,308 assets/);
+  assert((await page.locator('#result-count').innerText()).startsWith(formatted(cards.filter(x => x.source.kind.includes('generated')).length) + ' assets'));
   await page.locator('#source-filter').selectOption('all');
-  assert.match(await page.locator('#result-count').innerText(), /^6,016 assets/);
+  assert((await page.locator('#result-count').innerText()).startsWith(formatted(index.cardCount) + ' assets'));
   const ratio = await page.locator('.tile img').first().evaluate(img => { const b = img.getBoundingClientRect(); return b.width/b.height; });
-  assert(Math.abs(ratio-406/256) < .02, 'Card previews must preserve their aspect ratio');
+  assert(Math.abs(ratio-48/30) < .02, 'Card previews must preserve their aspect ratio');
   await page.locator('[data-category="payment-methods"]').click();
   await page.setViewportSize({ width: 390, height: 844 });
   await page.evaluate(() => scrollTo(0, 0));
@@ -75,7 +78,7 @@ async function visibleImagesReady(page) {
   assert.equal(await page.locator('html').getAttribute('data-preview'), 'dark');
   await page.locator('#search').fill('in3 betalen');
   await page.locator('.tile').click();
-  await page.waitForFunction(() => document.getElementById('detail-image').naturalWidth === 256);
+  await page.waitForFunction(() => document.getElementById('detail-image').naturalWidth === 48);
   await page.screenshot({ path: path.join(output, 'mobile-detail.png') });
   await page.keyboard.press('Escape');
   await page.locator('#search').fill('this-icon-does-not-exist-4837');

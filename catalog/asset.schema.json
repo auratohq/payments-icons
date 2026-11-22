@@ -2,31 +2,121 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Aurato payment asset",
   "type": "object",
-  "required": ["id", "name", "aliases", "category", "path", "upstreamPath", "width", "height", "bytes", "sha256", "source"],
+  "required": [
+    "id",
+    "name",
+    "aliases",
+    "category",
+    "path",
+    "upstreamPath",
+    "width",
+    "height",
+    "bytes",
+    "sha256",
+    "source"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id": {"type": "string", "minLength": 1},
-    "name": {"type": "string", "minLength": 1},
-    "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
-    "category": {"enum": ["banks", "cards", "currencies", "markets", "operators", "payment-methods", "psps", "regulators", "schemes", "systems"]},
-    "path": {"type": "string", "pattern": "^[a-z-]+/[a-z0-9]+(?:-[a-z0-9]+)*\\.png$"},
-    "upstreamPath": {"type": "string", "pattern": "^[a-z-]+/[A-Za-z0-9_-]+\\.png$"},
-    "width": {"enum": [256, 406]},
-    "height": {"const": 256},
-    "bytes": {"type": "integer", "minimum": 1, "maximum": 5000000},
-    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "category": {
+      "enum": [
+        "banks",
+        "cards",
+        "currencies",
+        "institutions",
+        "markets",
+        "operators",
+        "payment-methods",
+        "psps",
+        "regulators",
+        "schemes",
+        "systems"
+      ]
+    },
+    "path": {
+      "type": "string",
+      "pattern": "^[a-z-]+/[a-z0-9]+(?:-[a-z0-9]+)*\\.png$"
+    },
+    "upstreamPath": {
+      "type": "string",
+      "pattern": "^48/[a-z-]+/(?:[A-Za-z0-9_-][A-Za-z0-9_.-]*/)*[A-Za-z0-9_-][A-Za-z0-9_.-]*\\.webp$"
+    },
+    "width": {
+      "const": 48
+    },
+    "height": {
+      "enum": [
+        30,
+        48
+      ]
+    },
+    "bytes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5000000
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
     "source": {
       "type": "object",
-      "required": ["kind", "url"],
+      "required": [
+        "kind",
+        "url"
+      ],
       "additionalProperties": false,
       "properties": {
-        "kind": {"type": "string", "minLength": 1},
-        "url": {"type": ["string", "null"], "pattern": "^https?://[^\\s]+$"},
-        "reference": {"type": "string"}
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^https?://[^\\s]+$"
+        },
+        "reference": {
+          "type": "string"
+        }
       }
     }
   },
-  "if": {"properties": {"category": {"const": "cards"}}},
-  "then": {"properties": {"width": {"const": 406}}},
-  "else": {"properties": {"width": {"const": 256}}}
+  "if": {
+    "properties": {
+      "category": {
+        "const": "cards"
+      }
+    }
+  },
+  "then": {
+    "properties": {
+      "height": {
+        "const": 30
+      }
+    }
+  },
+  "else": {
+    "properties": {
+      "height": {
+        "const": 48
+      }
+    }
+  }
 }
